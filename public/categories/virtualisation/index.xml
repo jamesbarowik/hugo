@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Virtualisation on Portfolio</title>
+    <link>http://localhost:1313/categories/virtualisation/</link>
+    <description>Recent content in Virtualisation on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>James Barowik</copyright>
+    <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/virtualisation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proxmox</title>
+      <link>http://localhost:1313/proxmox/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/proxmox/</guid>
+      <description>Bazzite is an OCI image designed as an alternative OS for the Steam Deck and a SteamOS-like system for desktops and home theater PCs. It&amp;rsquo;s built on Fedora, offering broad hardware support and built-in drivers.&#xA;Official Bazzite Sites Github: https://github.com/ublue-os/bazzite&#xD;Website: https://bazzite.gg/&#xD;Download: https://bazzite.gg/#image-picker&#xD;Key Features Hardware Support &amp;amp; Drivers: Built from ublue-os/main and ublue-os/nvidia, ensuring wide hardware compatibility. Enhanced Gaming Experience: Includes fsync kernel for HDR support, NVK for non-Nvidia builds, and full hardware-accelerated codec support.</description>
+    </item>
+  </channel>
+</rss>

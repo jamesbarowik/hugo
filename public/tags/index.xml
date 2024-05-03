@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Hugo Theme Tailwind Example Site</title>
+    <title>Tags on Portfolio</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Hugo Theme Tailwind Example Site</description>
+    <description>Recent content in Tags on Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <copyright>Your Name</copyright>
+    <copyright>James Barowik</copyright>
+    <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bazzite</title>
+      <link>http://localhost:1313/tags/bazzite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bazzite/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

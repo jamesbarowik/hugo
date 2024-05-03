@@ -1,7 +1,7 @@
-baseURL = "https://example.com/"
-title = "Hugo Theme Tailwind Example Site"
-author = "Your Name"
-copyright = "Your Name"
+baseURL = "https://barowik-portfolio.netlify.app"
+title = "Portfolio"
+author = "James Barowik"
+copyright = "James Barowik"
 paginate = 10
 languageCode = "en"
 theme = "tailwind"
@@ -12,25 +12,18 @@ theme = "tailwind"
   contentTypeName = "posts"
 
   [params.header]
-    logo = "logo.webp"
+    logo = "https://raw.githubusercontent.com/SilentSmeary/SilentSmeary/main/logo.webp"
 
   [params.footer]
     since = 2023
     poweredby = true
 
 [menu]
-
   [[menu.main]]
     identifier = "post"
     name = "Post"
     pageRef = "/posts"
     weight = 0
-
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    pageRef = "/about"
-    weight = 10
 
 [taxonomies]
 category = "categories"
