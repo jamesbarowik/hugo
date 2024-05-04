@@ -7,7 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content=""
+  content="Introduction Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions that ment I was able to learn more with the hardware and I stumbled across Proxmox.
+Proxmox is a free and open source solution to virutalisation that allows for the creation of virtual machines using any operating system."
 />
 <meta
   name="keywords"
@@ -17,6 +18,8 @@
 <meta property="og:url" content="http://localhost:1313/proxmox/">
   <meta property="og:site_name" content="Portfolio">
   <meta property="og:title" content="Proxmox">
+  <meta property="og:description" content="Introduction Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions that ment I was able to learn more with the hardware and I stumbled across Proxmox.
+Proxmox is a free and open source solution to virutalisation that allows for the creation of virtual machines using any operating system.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -24,7 +27,8 @@
     <meta property="article:modified_time" content="2024-04-17T00:00:00+00:00">
 
 <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Proxmox">
-<meta name="twitter:description" content="">
+<meta name="twitter:description" content="Introduction Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions that ment I was able to learn more with the hardware and I stumbled across Proxmox.
+Proxmox is a free and open source solution to virutalisation that allows for the creation of virtual machines using any operating system.">
 
 
 <link rel="canonical" href="http://localhost:1313/proxmox/" />
@@ -167,9 +171,30 @@
       </li>
       
       <li>
-        <a href="/categories/virtualisation/"
+        <a href="/categories/servers/"
           class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
-          Virtualisation
+          Servers
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/networking/"
+          class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
+          Networking
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/kvm/"
+          class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
+          KVM
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/virtual-machines/"
+          class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
+          Virtual Machines
         </a>
       </li>
       
@@ -211,7 +236,7 @@
 
     </i>
     <span>
-      0 minutes to read
+      2 minutes to read
     </span>
   </div>
 </div>
@@ -221,13 +246,38 @@
         
         <section class="prose prose-slate dark:prose-invert w-full max-w-4xl lg:max-w-5xl mt-6">
           <h2>Table of Contents</h2>
-          <aside><nav id="TableOfContents"></nav></aside>
+          <aside><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#vms">VM&rsquo;s</a></li>
+    <li><a href="#server-hardware">Server Hardware</a></li>
+  </ul>
+</nav></aside>
         </section>
         
       
 
       <article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content">
-        
+        <h2 id="introduction">Introduction</h2>
+<p>Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions that ment I was able to learn more with the hardware and I stumbled across Proxmox.</p>
+<p>Proxmox is a free and open source solution to virutalisation that allows for the creation of virtual machines using any operating system. Which ment we could host our Active Directory Service, Aswell as the networked storage solution that we use TrueNAS Scale.</p>
+<h2 id="installation">Installation</h2>
+<p>The installation was very easy as the Graphical Installer was very simple and needed the basic amount of information to install fully. I made sure to give the server a Static IP as if it used a DHCP IP the lease could end and it might not be given the same IP. Meaning that the server is inaccessible</p>
+<h2 id="vms">VM&rsquo;s</h2>
+<p>We used Windows Server 2019 as it worked with the bare metal hardware to make sure that I didn&rsquo;t run into any issues later. We need to use windows for the Active Directory to authenticate users.</p>
+<p>We need a central server for storing files to ensure that users aren&rsquo;t storing files on there Local Machines incase Machines were re-imaged and users didn&rsquo;t backup there files to the cloud. We used TrueNAS Scale for this to secure the files behind user accounts</p>
+<h2 id="server-hardware">Server Hardware</h2>
+<ul>
+<li>192GB RAM</li>
+<li>2x CPU 12 Cores Each</li>
+<li>2 x 1GB On Board Networking</li>
+<li>6x SATA Drive Days</li>
+<li>Fujitsu PCIE Raid Card</li>
+<li>1x 240GB Kingston SSD</li>
+<li>5x 480GB Kingston SSD</li>
+</ul>
+
       </article>
 
       

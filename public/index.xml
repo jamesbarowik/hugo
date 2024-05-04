@@ -14,7 +14,7 @@
       <link>http://localhost:1313/proxmox/</link>
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/proxmox/</guid>
-      <description>Bazzite is an OCI image designed as an alternative OS for the Steam Deck and a SteamOS-like system for desktops and home theater PCs. It&amp;rsquo;s built on Fedora, offering broad hardware support and built-in drivers.&#xA;Official Bazzite Sites Github: https://github.com/ublue-os/bazzite&#xD;Website: https://bazzite.gg/&#xD;Download: https://bazzite.gg/#image-picker&#xD;Key Features Hardware Support &amp;amp; Drivers: Built from ublue-os/main and ublue-os/nvidia, ensuring wide hardware compatibility. Enhanced Gaming Experience: Includes fsync kernel for HDR support, NVK for non-Nvidia builds, and full hardware-accelerated codec support.</description>
+      <description>Introduction Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions that ment I was able to learn more with the hardware and I stumbled across Proxmox.&#xA;Proxmox is a free and open source solution to virutalisation that allows for the creation of virtual machines using any operating system.</description>
     </item>
     <item>
       <title></title>

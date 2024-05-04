@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking on Portfolio</title>
+    <link>http://localhost:1313/categories/networking/</link>
+    <description>Recent content in Networking on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>James Barowik</copyright>
+    <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proxmox</title>
+      <link>http://localhost:1313/proxmox/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/proxmox/</guid>
+      <description>Introduction Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions&#xA;Proxmox is a free and open source solution to virutalisation that offers that allows for the creation of virtual machines using any operating system. The first system that we built had 192 GB RAM and 24 cores.</description>
+    </item>
+  </channel>
+</rss>
