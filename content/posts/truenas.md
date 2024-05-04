@@ -1,6 +1,6 @@
 ---
 title: "TrueNAS Scale"
-date: 2024-04-17
+date: 2024-01-20
 url: /truenas
 categories:
   - Linux

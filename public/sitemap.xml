@@ -29,6 +29,12 @@
     <loc>http://localhost:1313/categories/virtual-machines/</loc>
     <lastmod>2024-04-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/truenas/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/truenas/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/search/</loc>
     <priority>0.1</priority>
   </url><url>

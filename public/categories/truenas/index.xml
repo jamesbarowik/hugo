@@ -7,12 +7,12 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>James Barowik</copyright>
-    <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/truenas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TrueNAS Scale</title>
       <link>http://localhost:1313/truenas/</link>
-      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/truenas/</guid>
       <description>Introduction We needed a safe fast and secure solution for storage. We need a solution that supported both Windows Shares (SMB) and Linux Shares. With the requirements that we need and the hardware that we have the search began. For the OS that was compatible with our older hardware and that worked with never drives that were harvested from our old college machines that were no longer in use.&#xA;Final Choice After a few days searching and countless failed attempts to deploy a working server we found TrueNAS Scale and Core.</description>
     </item>
