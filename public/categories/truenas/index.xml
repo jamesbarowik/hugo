@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on Portfolio</title>
-    <link>http://localhost:1313/categories/linux/</link>
-    <description>Recent content in Linux on Portfolio</description>
+    <title>TrueNAS on Portfolio</title>
+    <link>http://localhost:1313/categories/truenas/</link>
+    <description>Recent content in TrueNAS on Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>James Barowik</copyright>
     <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Proxmox</title>
-      <link>http://localhost:1313/proxmox/</link>
-      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/proxmox/</guid>
-      <description>Introduction Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions that ment I was able to learn more with the hardware and I stumbled across Proxmox.&#xA;Proxmox is a free and open source solution to virutalisation that allows for the creation of virtual machines using any operating system.</description>
-    </item>
+    <atom:link href="http://localhost:1313/categories/truenas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TrueNAS Scale</title>
       <link>http://localhost:1313/truenas/</link>

@@ -14,7 +14,7 @@
       <link>http://localhost:1313/proxmox/</link>
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/proxmox/</guid>
-      <description>Introduction Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions&#xA;Proxmox is a free and open source solution to virutalisation that offers that allows for the creation of virtual machines using any operating system. The first system that we built had 192 GB RAM and 24 cores.</description>
+      <description>Introduction Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions that ment I was able to learn more with the hardware and I stumbled across Proxmox.&#xA;Proxmox is a free and open source solution to virutalisation that allows for the creation of virtual machines using any operating system.</description>
     </item>
   </channel>
 </rss>
