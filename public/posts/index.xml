@@ -17,6 +17,13 @@
       <description>Introduction Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions that ment I was able to learn more with the hardware and I stumbled across Proxmox.&#xA;Proxmox is a free and open source solution to virutalisation that allows for the creation of virtual machines using any operating system.</description>
     </item>
     <item>
+      <title>Hundo Work Experience</title>
+      <link>http://localhost:1313/hundo/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hundo/</guid>
+      <description>Introduction As part of the Digital T-Level we are required to complete a minmum of 45 days work experience. For this project we worked with Leeds City Council and Hundo&#xA;Hundo&amp;rsquo;s project was to provide digital work experience to Digital Students such as our selfs. So it made for a perfect opportunity to work and gain connections with external companies as well as completing 10 of our 45 days&#xA;The Brief Over the course of the next 5 weeks, you will work with hundo to design, build and promote a product for Leeds City Council.</description>
+    </item>
+    <item>
       <title>TrueNAS Scale</title>
       <link>http://localhost:1313/truenas/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
