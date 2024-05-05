@@ -45,6 +45,27 @@
       <description></description>
     </item>
     <item>
+      <title>Deployment</title>
+      <link>http://localhost:1313/categories/deployment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/deployment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows Server</title>
+      <link>http://localhost:1313/categories/windows-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/windows-server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Work Experience</title>
+      <link>http://localhost:1313/categories/work-experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/work-experience/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>TrueNAS</title>
       <link>http://localhost:1313/categories/truenas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
