@@ -2,6 +2,7 @@
 title: "Proxmox"
 date: 2024-04-17
 url: /proxmox
+image: https://weik.de/cms/wp-attachements/2020/10/proxmox-banner.jpg
 categories:
   - Linux
   - Servers

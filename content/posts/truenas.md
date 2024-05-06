@@ -2,6 +2,7 @@
 title: "TrueNAS Scale"
 date: 2024-01-20
 url: /truenas
+image: https://cdn.thenewstack.io/media/2023/03/c04722bf-truenas.jpg
 categories:
   - Linux
   - TrueNAS

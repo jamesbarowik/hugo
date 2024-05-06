@@ -2,6 +2,7 @@
 title: "Hundo Work Experience"
 date: 2024-02-24
 url: /hundo
+image: https://asset.brandfetch.io/idPeVG2WmY/idp7hzAo_F.jpeg
 categories:
   - Work Experience
 draft: false
