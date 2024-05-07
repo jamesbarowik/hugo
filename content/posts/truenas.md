@@ -2,7 +2,7 @@
 title: "TrueNAS Scale"
 date: 2024-01-20
 url: /truenas
-image: https://github.com/SilentSmeary/SilentSmeary/blob/main/images/hugo/truenas.jpg?raw=true
+image: https://github.com/SilentSmeary/SilentSmeary/blob/main/images/hugo/truenas.png?raw=true
 categories:
   - Linux
   - TrueNAS
