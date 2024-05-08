@@ -1,15 +1,5 @@
 ---
-title: "Proxmox"
-date: 2024-04-17
-url: /proxmox
-image: https://github.com/SilentSmeary/SilentSmeary/blob/main/images/hugo/proxmox.jpg?raw=true
-categories:
-  - Linux
-  - Servers
-  - Networking
-  - KVM
-  - Virtual Machines
-draft: false
+title: "About"
 ---
 ## Introduction
 Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions that ment I was able to learn more with the hardware and I stumbled across Proxmox.

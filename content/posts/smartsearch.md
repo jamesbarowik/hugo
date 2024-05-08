@@ -2,7 +2,7 @@
 title: "Smartsearch Game"
 date: 2024-05-05
 url: /smartsearch
-image: https://abya.co.uk/media/2266/smartsearch-banner.png?anchor=center&mode=crop&width=720&bgcolor=fff&rnd=133047161300000000
+image: https://github.com/SilentSmeary/SilentSmeary/blob/main/images/hugo/smartsearch.png?raw=true
 categories:
   - Work Experience
 ---
@@ -37,4 +37,14 @@ We presented all the ideas to the smartsearch team and left them with our though
 We needed to find a platform that ment we could share code with each other without the requirement to install tonnes of software that could cause issues for others that don't have powerful computers at home. The conclusion for this was to use GitHub it ment that we could share the code. We also needed a solution for the team management for this time we tried GitHub projects but I think the next time I work on a project I would rather use Trello which is similar but has more advanced features when working with others. 
 
 ## Development
-Development continuted for around 12 weeks with our weekly meetings. 
+We cotinuted the development for around 12 weeks, we had weekly meeting with Dan and David to share the progress and get reports on what we need to work on for next week. We aimed to have the game working before the launch day. On this instance we did not meet that requirement but we just had a few small things that needed to be changed there were mostly backend features. But we got those features added the morning of the launch. Making sure that we moved all the test machines to the correct build.
+
+## Launch Day
+On April 29th we launched the smartsearch project we met with:
+- Martin Cheek **(MD of Smartsearch)**
+- Andrew Booth **(VP of Technology)**
+- Vicky Hester **(Head of Talent Management)**
+- Dan Jackson **(Talent Management)**
+- David Moftakhar **(Software Developer)**
+
+We presented a small PowerPoint where each member of the team choose what part they wanted to speak about. They choose parts that they were most involved in, As my expertise where with GitHub and the hosting of the files and the website I spoke about why we used Github and the future plans for the game to make it more future proof.
