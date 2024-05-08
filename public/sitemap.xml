@@ -68,6 +68,8 @@
     <loc>http://localhost:1313/search/_index.zh-cn/</loc>
     <priority>0.1</priority>
   </url><url>
+    <loc>http://localhost:1313/about/</loc>
+  </url><url>
     <loc>http://localhost:1313/series/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
