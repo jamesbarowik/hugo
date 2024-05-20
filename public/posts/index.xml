@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>James Barowik</copyright>
-    <lastBuildDate>Sun, 05 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brandon Medical</title>
+      <link>http://localhost:1313/brandon-medical/</link>
+      <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/brandon-medical/</guid>
+      <description>Introduction As part of the Digital T Level Course, we are required to do 45 days work experience, the hundo job that we completed totaled around 10 days, Find more information here.&#xD;Application To make the whole experience as valuable as possible there was a whole interview process, that made it is real as possible. Firstly, I applied for role to assist with the creation of there Learning Management System. Upon the first meeting with Ingrid Law the Human Resource Manager I had a keen interest in the role.</description>
+    </item>
     <item>
       <title>Smartsearch Game</title>
       <link>http://localhost:1313/smartsearch/</link>
