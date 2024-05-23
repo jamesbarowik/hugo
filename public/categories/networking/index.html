@@ -20,8 +20,9 @@
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
-<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Networking">
-<meta name="twitter:description" content="">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Networking">
 
 
 <link rel="canonical" href="http://localhost:1313/categories/networking/" />
@@ -171,7 +172,7 @@
               
   
   <div class="my-4 text-large text-slate-600 dark:text-slate-300">
-    !version 15.2service timestamps debug datetime msecservice timestamps log datetime msecno service password-encryption!hostname Router!boot-start-markerboot-end-marker!!enable secret 4 56jyXs.RSLFQFX5Ebzwqm0eXTwHAtDmINcDLgnOqA16!no aaa new-modelmemory-size iomem 5!ip cef!!!ip dhcp excluded-address 172.16.0.1 172.16.0.99ip dhcp excluded-address 172.16.0.200 172.16.0.254!ip dhcp pool pool1network 172.16.0.0 255.255.0.0default-router 172.16.0.1dns-server 172.16.0.4 8.8.8.8!!!no ipv6 cefmultilink bundle-name authenticated!
+    Pre-Information The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address. There are 0 VLAN’s currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.
   </div>
   
 
@@ -181,16 +182,9 @@
     
       
       <li>
-        <a href="/categories/linux/"
+        <a href="/categories/cisco/"
           class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
-          Linux
-        </a>
-      </li>
-      
-      <li>
-        <a href="/categories/servers/"
-          class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
-          Servers
+          Cisco
         </a>
       </li>
       
@@ -198,20 +192,6 @@
         <a href="/categories/networking/"
           class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
           Networking
-        </a>
-      </li>
-      
-      <li>
-        <a href="/categories/kvm/"
-          class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
-          KVM
-        </a>
-      </li>
-      
-      <li>
-        <a href="/categories/virtual-machines/"
-          class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
-          Virtual Machines
         </a>
       </li>
       
@@ -424,30 +404,9 @@ Proxmox is a free and open source solution to virutalisation that allows for the
     </li>
     
     <li class="mt-2 mr-2">
-      <a href="/categories/kvm/"
-        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
-        KVM
-      </a>
-    </li>
-    
-    <li class="mt-2 mr-2">
       <a href="/categories/networking/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
         Networking
-      </a>
-    </li>
-    
-    <li class="mt-2 mr-2">
-      <a href="/categories/servers/"
-        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
-        Servers
-      </a>
-    </li>
-    
-    <li class="mt-2 mr-2">
-      <a href="/categories/virtual-machines/"
-        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
-        Virtual Machines
       </a>
     </li>
     
@@ -459,9 +418,37 @@ Proxmox is a free and open source solution to virutalisation that allows for the
     </li>
     
     <li class="mt-2 mr-2">
+      <a href="/categories/cisco/"
+        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
+        Cisco
+      </a>
+    </li>
+    
+    <li class="mt-2 mr-2">
+      <a href="/categories/kvm/"
+        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
+        KVM
+      </a>
+    </li>
+    
+    <li class="mt-2 mr-2">
+      <a href="/categories/servers/"
+        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
+        Servers
+      </a>
+    </li>
+    
+    <li class="mt-2 mr-2">
       <a href="/categories/truenas/"
         class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
         TrueNAS
+      </a>
+    </li>
+    
+    <li class="mt-2 mr-2">
+      <a href="/categories/virtual-machines/"
+        class="rounded px-2 py-1 text-sm text-slate-800 dark:text-slate-300 ring-1 ring-slate-900/5 dark:ring-slate-50/5 backdrop-blur bg-slate-50 dark:bg-gray-700">
+        Virtual Machines
       </a>
     </li>
     

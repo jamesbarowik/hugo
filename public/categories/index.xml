@@ -17,6 +17,13 @@
       <description></description>
     </item>
     <item>
+      <title>Cisco</title>
+      <link>http://localhost:1313/categories/cisco/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/cisco/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>KVM</title>
       <link>http://localhost:1313/categories/kvm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
