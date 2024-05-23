@@ -10,6 +10,13 @@
     <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/virtual-machines/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cisco Router</title>
+      <link>http://localhost:1313/router/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/router/</guid>
+      <description>!&#xD;version 15.2&#xD;service timestamps debug datetime msec&#xD;service timestamps log datetime msec&#xD;no service password-encryption&#xD;!&#xD;hostname Router&#xD;!&#xD;boot-start-marker&#xD;boot-end-marker&#xD;!&#xD;!&#xD;enable secret 4 56jyXs.RSLFQFX5Ebzwqm0eXTwHAtDmINcDLgnOqA16&#xD;!&#xD;no aaa new-model&#xD;memory-size iomem 5&#xD;!&#xD;ip cef&#xD;!&#xD;!&#xD;!&#xD;ip dhcp excluded-address 172.16.0.1 172.16.0.99&#xD;ip dhcp excluded-address 172.16.0.200 172.16.0.254&#xD;!&#xD;ip dhcp pool pool1&#xD;network 172.16.0.0 255.255.0.0&#xD;default-router 172.16.0.1&#xD;dns-server 172.16.0.4 8.8.8.8&#xD;!&#xD;!&#xD;!&#xD;no ipv6 cef&#xD;multilink bundle-name authenticated&#xD;!</description>
+    </item>
+    <item>
       <title>Proxmox</title>
       <link>http://localhost:1313/proxmox/</link>
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
