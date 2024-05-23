@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="!version 15.2service timestamps debug datetime msecservice timestamps log datetime msecno service password-encryption!hostname Router!boot-start-markerboot-end-marker!!enable secret 4 56jyXs.RSLFQFX5Ebzwqm0eXTwHAtDmINcDLgnOqA16!no aaa new-modelmemory-size iomem 5!ip cef!!!ip dhcp excluded-address 172.16.0.1 172.16.0.99ip dhcp excluded-address 172.16.0.200 172.16.0.254!ip dhcp pool pool1network 172.16.0.0 255.255.0.0default-router 172.16.0.1dns-server 172.16.0.4 8.8.8.8!!!no ipv6 cefmultilink bundle-name authenticated!"
+  content="Pre-Information The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address. There are 0 VLAN&amp;rsquo;s currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device."
 />
 <meta
   name="keywords"
@@ -17,7 +17,7 @@
 <meta property="og:url" content="http://localhost:1313/router/">
   <meta property="og:site_name" content="Portfolio">
   <meta property="og:title" content="Cisco Router">
-  <meta property="og:description" content="!version 15.2service timestamps debug datetime msecservice timestamps log datetime msecno service password-encryption!hostname Router!boot-start-markerboot-end-marker!!enable secret 4 56jyXs.RSLFQFX5Ebzwqm0eXTwHAtDmINcDLgnOqA16!no aaa new-modelmemory-size iomem 5!ip cef!!!ip dhcp excluded-address 172.16.0.1 172.16.0.99ip dhcp excluded-address 172.16.0.200 172.16.0.254!ip dhcp pool pool1network 172.16.0.0 255.255.0.0default-router 172.16.0.1dns-server 172.16.0.4 8.8.8.8!!!no ipv6 cefmultilink bundle-name authenticated!">
+  <meta property="og:description" content="Pre-Information The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address. There are 0 VLAN’s currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -25,7 +25,7 @@
     <meta property="article:modified_time" content="2024-04-17T00:00:00+00:00">
 
 <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Cisco Router">
-<meta name="twitter:description" content="!version 15.2service timestamps debug datetime msecservice timestamps log datetime msecno service password-encryption!hostname Router!boot-start-markerboot-end-marker!!enable secret 4 56jyXs.RSLFQFX5Ebzwqm0eXTwHAtDmINcDLgnOqA16!no aaa new-modelmemory-size iomem 5!ip cef!!!ip dhcp excluded-address 172.16.0.1 172.16.0.99ip dhcp excluded-address 172.16.0.200 172.16.0.254!ip dhcp pool pool1network 172.16.0.0 255.255.0.0default-router 172.16.0.1dns-server 172.16.0.4 8.8.8.8!!!no ipv6 cefmultilink bundle-name authenticated!">
+<meta name="twitter:description" content="Pre-Information The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address. There are 0 VLAN&rsquo;s currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.">
 
 
 <link rel="canonical" href="http://localhost:1313/router/" />
@@ -166,16 +166,9 @@
     
       
       <li>
-        <a href="/categories/linux/"
+        <a href="/categories/cisco/"
           class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
-          Linux
-        </a>
-      </li>
-      
-      <li>
-        <a href="/categories/servers/"
-          class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
-          Servers
+          Cisco
         </a>
       </li>
       
@@ -183,20 +176,6 @@
         <a href="/categories/networking/"
           class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
           Networking
-        </a>
-      </li>
-      
-      <li>
-        <a href="/categories/kvm/"
-          class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
-          KVM
-        </a>
-      </li>
-      
-      <li>
-        <a href="/categories/virtual-machines/"
-          class="text-sm mr-2 px-2 py-1 rounded border border-emerald-800 bg-emerald-800 text-slate-50">
-          Virtual Machines
         </a>
       </li>
       
@@ -248,13 +227,22 @@
         
         <section class="prose prose-slate dark:prose-invert w-full max-w-4xl lg:max-w-5xl mt-6">
           <h2>Table of Contents</h2>
-          <aside><nav id="TableOfContents"></nav></aside>
+          <aside><nav id="TableOfContents">
+  <ul>
+    <li><a href="#pre-information">Pre-Information</a></li>
+    <li><a href="#current-config">Current Config</a></li>
+  </ul>
+</nav></aside>
         </section>
         
       
 
       <article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content">
-        <pre tabindex="0"><code class="language-Current" data-lang="Current">!
+        <h2 id="pre-information">Pre-Information</h2>
+<p>The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address. There are 0 VLAN&rsquo;s currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.</p>
+<h2 id="current-config">Current Config</h2>
+<pre tabindex="0"><code>Current configuration : 1583 bytes
+!
 version 15.2
 service timestamps debug datetime msec
 service timestamps log datetime msec
@@ -350,7 +338,7 @@ line vty 0 4
 !
 scheduler allocate 20000 1000
 !
-end```
+end
 </code></pre>
       </article>
 
