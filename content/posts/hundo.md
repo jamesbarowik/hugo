@@ -10,13 +10,13 @@ draft: false
 ## Introduction
 As part of the Digital T-Level we are required to complete a minmum of 45 days work experience. For this project we worked with Leeds City Council and Hundo
 
-Hundo's project was to provide digital work experience to Digital Students such as our selfs. So it made for a perfect opportunity to work and gain connections with external companies as well as completing 10 of our 45 days
+Hundo's project was to provide digital work experience for Digital Students such as our selfs. So it made for a perfect opportunity to work and gain connections with external companies as well as completing 10 of our 45 days
 
 ## The Brief
-Over the course of the next 5 weeks, you will work with hundo to design, build and promote a product for Leeds City Council. You will be working with the hudno team, and the Employment and Skills team from Leeds City Council.
+Over the course of the next 5 weeks, you will work with hundo to design, build and promote a product for Leeds City Council. You will be working with the hundo team, and the Employment and Skills team from Leeds City Council.
 
 ## Product Requirements
-Leeds City Council wanted to make an emmersive experience that showcased all the exhibitors that visted Leeds Apprenticeship Requirement Fair 2024 into and online experience so that people that went able to travel into the centre of leeds for the face to face event. Also that users we're able to access all the information that they needed if they were interested in applying for an apprenticship
+Leeds City Council had an idea and they wanted to make an emmersive experience that showcased all the exhibitors that visted Leeds Apprenticeship Requirement Fair 2024 into and online experience so that people that went able to travel into the centre of leeds for the face to face event. Also that users we're able to access all the information that they needed if they were interested in applying for an apprenticship
 
 ## My Role
 During the project we were split into groups to tackle the project and make it more manageable and organised so that we could work independantly and get the tasks done
