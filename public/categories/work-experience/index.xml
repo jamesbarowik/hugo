@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>James Barowik</copyright>
-    <lastBuildDate>Sun, 05 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/work-experience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brandon Medical</title>
+      <link>http://localhost:1313/brandon-medical/</link>
+      <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/brandon-medical/</guid>
+      <description>Introduction As part of the Digital T Level Course, we are required to do 45 days work experience, the hundo job that we completed totaled around 10 days, Find more information here. Application The aim of the work experience was to make it was real as possible, so firstly we were present with a few roles from Different companies including Hippo Digital, Asda, Leeds City Council and Brandon Medical.&#xA;After looking over all of the applications I felt that the Brandon Medical position was the best for me and was the best way that I could gain practical skills whilst also making a viable product that the company are able to use.</description>
+    </item>
     <item>
       <title>Smartsearch Game</title>
       <link>http://localhost:1313/smartsearch/</link>
@@ -21,7 +28,7 @@
       <link>http://localhost:1313/hundo/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/hundo/</guid>
-      <description>Introduction As part of the Digital T-Level we are required to complete a minmum of 45 days work experience. For this project we worked with Leeds City Council and Hundo&#xA;Hundo&amp;rsquo;s project was to provide digital work experience to Digital Students such as our selfs. So it made for a perfect opportunity to work and gain connections with external companies as well as completing 10 of our 45 days&#xA;The Brief Over the course of the next 5 weeks, you will work with hundo to design, build and promote a product for Leeds City Council.</description>
+      <description>Introduction As part of the Digital T-Level we are required to complete a minmum of 45 days work experience. For this project we worked with Leeds City Council and Hundo&#xA;Hundo&amp;rsquo;s project was to provide digital work experience for Digital Students such as our selfs. So it made for a perfect opportunity to work and gain connections with external companies as well as completing 10 of our 45 days&#xA;The Brief Over the course of the next 5 weeks, you will work with hundo to design, build and promote a product for Leeds City Council.</description>
     </item>
   </channel>
 </rss>
