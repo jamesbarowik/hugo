@@ -6,7 +6,7 @@ image: https://raw.githubusercontent.com/SilentSmeary/SilentSmeary/main/images/h
 categories:
   - Work Experience
 series:
- - 2023 
+ - 2024 
 draft: false
 ---
 ## Introduction

@@ -7,7 +7,7 @@ categories:
   - Linux
   - TrueNAS
 series:
- - 2023 
+ - 2024 
 ---
 ## Introduction
 We needed a safe fast and secure solution for storage. We need a solution that supported both Windows Shares (SMB) and Linux Shares. With the requirements that we need and the hardware that we have the search began. For the OS that was compatible with our older hardware and that worked with never drives that were harvested from our old college machines that were no longer in use.

@@ -6,7 +6,7 @@ image: https://github.com/SilentSmeary/SilentSmeary/blob/main/images/hugo/hundo.
 categories:
   - Work Experience
 series:
-  - 2023 
+  - 2024 
 draft: false
 ---
 ## Introduction

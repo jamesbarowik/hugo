@@ -6,7 +6,7 @@ image: https://raw.githubusercontent.com/SilentSmeary/SilentSmeary/main/images/h
 categories:
   - Work Experience
 series:
- - 2023 
+ - 2024 
 ---
 ## Introduction
 Smartsearch approached the UTC with an idea that they wanted to make a game to showcase there company at events. We initial met with them in person and spoke with Dan that was our a lead contact at Smartsearch and the team. We also met with David who is one of the software developers at SmartSearch he assisted along the way with more of the team management to ensure that we were on the right tracks and that we made a viable product at the end that could be used to bring people to the SmartSearch stand and get them interetsed.
