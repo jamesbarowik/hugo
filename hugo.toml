@@ -15,7 +15,7 @@ theme = "tailwind"
     logo = "https://raw.githubusercontent.com/SilentSmeary/SilentSmeary/main/images/pfp/logo.webp"
 
   [params.footer]
-    since = 2023
+    since = 2024
     poweredby = true
 
 [menu]

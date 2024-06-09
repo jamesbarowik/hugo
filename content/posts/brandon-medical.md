@@ -5,6 +5,8 @@ url: /brandon-medical
 image: https://raw.githubusercontent.com/SilentSmeary/SilentSmeary/main/images/hugo/BrandonMedical.webp
 categories:
   - Work Experience
+series:
+ - 2023 
 draft: false
 ---
 ## Introduction

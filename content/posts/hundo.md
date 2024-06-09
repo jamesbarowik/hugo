@@ -5,6 +5,8 @@ url: /hundo
 image: https://github.com/SilentSmeary/SilentSmeary/blob/main/images/hugo/hundo.jpeg?raw=true
 categories:
   - Work Experience
+series:
+  - 2023 
 draft: false
 ---
 ## Introduction

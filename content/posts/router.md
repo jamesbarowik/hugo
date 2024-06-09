@@ -6,6 +6,8 @@ image: https://www.bleepstatic.com/content/hl-images/2020/10/20/Cisco.jpg
 categories:
   - Cisco
   - Networking
+series:
+ - 2023 
 draft: false
 ---
 ## Pre-Information
