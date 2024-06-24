@@ -21,11 +21,13 @@
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-04-17T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-04-17T00:00:00+00:00">
+    <meta property="article:published_time" content="2024-06-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-06-24T00:00:00+00:00">
       <meta property="og:see_also" content="http://localhost:1313/brandon-medical/">
+      <meta property="og:see_also" content="http://localhost:1313/smartsearch/">
       <meta property="og:see_also" content="http://localhost:1313/proxmox/">
       <meta property="og:see_also" content="http://localhost:1313/hundo/">
+      <meta property="og:see_also" content="http://localhost:1313/truenas/">
 
 
   <meta name="twitter:card" content="summary">
@@ -206,8 +208,8 @@
 </svg>
 
     </i>
-    <time datetime="2024-04-17T00:00:00&#43;00:00">
-      2024-04-17
+    <time datetime="2024-06-24T00:00:00&#43;00:00">
+      2024-06-24
     </time>
   </div>
 
@@ -236,6 +238,17 @@
   <ul>
     <li><a href="#pre-information">Pre-Information</a></li>
     <li><a href="#current-config">Current Config</a></li>
+    <li><a href="#common-commands">Common Commands</a>
+      <ul>
+        <li><a href="#save-current-config-to-startup">Save current config to startup</a></li>
+        <li><a href="#show-the-running-config">Show the running config</a></li>
+        <li><a href="#show-ip-interface-brief">Show IP interface brief</a></li>
+        <li><a href="#router-restart">Router Restart</a></li>
+        <li><a href="#set-an-ip-address">Set an IP address</a></li>
+        <li><a href="#changing-the-hostname">Changing the hostname</a></li>
+        <li><a href="#setting-a-console-password">Setting a console password</a></li>
+      </ul>
+    </li>
   </ul>
 </nav></aside>
         </section>
@@ -344,6 +357,38 @@ line vty 0 4
 scheduler allocate 20000 1000
 !
 end
+</code></pre><h2 id="common-commands">Common Commands</h2>
+<h3 id="save-current-config-to-startup">Save current config to startup</h3>
+<pre tabindex="0"><code>Router&gt; enable
+Router# copy running-config startup-config
+Destination filename [startup-config]? &lt;Enter&gt;
+</code></pre><h3 id="show-the-running-config">Show the running config</h3>
+<pre tabindex="0"><code>Router&gt; enable
+Router# show running-config
+</code></pre><h3 id="show-ip-interface-brief">Show IP interface brief</h3>
+<pre tabindex="0"><code>Router# show ip interface brief
+</code></pre><h3 id="router-restart">Router Restart</h3>
+<pre tabindex="0"><code>Router&gt; enable
+Router# reload
+</code></pre><h3 id="set-an-ip-address">Set an IP address</h3>
+<pre tabindex="0"><code>Router&gt; enable
+Router# configure terminal
+Router(config)# interface GigabitEthernet0/0
+Router(config-if)# ip address 10.0.0.1 255.0.0.0
+Router(config-if)# no shutdown
+Router(config-if)# exit
+Router(config)# exit
+</code></pre><h3 id="changing-the-hostname">Changing the hostname</h3>
+<pre tabindex="0"><code>Router&gt; enable
+Router# configure terminal
+Router(config)# hostname MyRouter
+</code></pre><h3 id="setting-a-console-password">Setting a console password</h3>
+<pre tabindex="0"><code>Router&gt; enable
+Router# configure terminal
+Router(config)# line console 0
+Router(config-line)# password myconsolepassword
+Router(config-line)# login
+Router(config-line)# exit
 </code></pre>
       </article>
 

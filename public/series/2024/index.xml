@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Portfolio</description>
+    <title>2024 on Portfolio</title>
+    <link>http://localhost:1313/series/2024/</link>
+    <description>Recent content in 2024 on Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>James Barowik</copyright>
-    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cisco Router</title>
-      <link>http://localhost:1313/router/</link>
-      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/router/</guid>
-      <description>Pre-Information The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address. There are 0 VLAN&amp;rsquo;s currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.</description>
-    </item>
+    <lastBuildDate>Sat, 18 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/series/2024/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Brandon Medical Work Placement</title>
       <link>http://localhost:1313/brandon-medical/</link>
@@ -29,6 +22,13 @@
       <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/smartsearch/</guid>
       <description>Introduction Smartsearch approached the UTC with an idea that they wanted to make a game to showcase there company at events. We initial met with them in person and spoke with Dan that was our a lead contact at Smartsearch and the team. We also met with David who is one of the software developers at SmartSearch he assisted along the way with more of the team management to ensure that we were on the right tracks and that we made a viable product at the end that could be used to bring people to the SmartSearch stand and get them interetsed.</description>
+    </item>
+    <item>
+      <title>Cisco Router</title>
+      <link>http://localhost:1313/router/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/router/</guid>
+      <description>Pre-Information The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address. There are 0 VLAN&amp;rsquo;s currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.</description>
     </item>
     <item>
       <title>Proxmox</title>
@@ -50,55 +50,6 @@
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/truenas/</guid>
       <description>Introduction We needed a safe fast and secure solution for storage. We need a solution that supported both Windows Shares (SMB) and Linux Shares. With the requirements that we need and the hardware that we have the search began. For the OS that was compatible with our older hardware and that worked with never drives that were harvested from our old college machines that were no longer in use.&#xA;Final Choice After a few days searching and countless failed attempts to deploy a working server we found TrueNAS Scale and Core.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/search/_index.es/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/_index.es/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/search/_index.fr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/_index.fr/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/search/_index.hi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/_index.hi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/search/_index.jp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/_index.jp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/search/_index.pl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/_index.pl/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/search/_index.ru/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/_index.ru/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/search/_index.zh-cn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/_index.zh-cn/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

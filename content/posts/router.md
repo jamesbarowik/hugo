@@ -1,6 +1,6 @@
 ---
 title: "Cisco Router"
-date: 2024-04-17
+date: 2024-06-24
 url: /router 
 image: https://www.bleepstatic.com/content/hl-images/2020/10/20/Cisco.jpg
 categories:
@@ -113,4 +113,51 @@ line vty 0 4
 scheduler allocate 20000 1000
 !
 end
+```
+
+## Common Commands
+### Save current config to startup
+```
+Router> enable
+Router# copy running-config startup-config
+Destination filename [startup-config]? <Enter>
+```
+### Show the running config
+```
+Router> enable
+Router# show running-config
+```
+### Show IP interface brief
+```
+Router# show ip interface brief
+```
+### Router Restart
+```
+Router> enable
+Router# reload
+```
+### Set an IP address
+```
+Router> enable
+Router# configure terminal
+Router(config)# interface GigabitEthernet0/0
+Router(config-if)# ip address 10.0.0.1 255.0.0.0
+Router(config-if)# no shutdown
+Router(config-if)# exit
+Router(config)# exit
+```
+### Changing the hostname
+```
+Router> enable
+Router# configure terminal
+Router(config)# hostname MyRouter
+```
+### Setting a console password
+```
+Router> enable
+Router# configure terminal
+Router(config)# line console 0
+Router(config-line)# password myconsolepassword
+Router(config-line)# login
+Router(config-line)# exit
 ```
