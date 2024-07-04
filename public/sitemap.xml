@@ -3,21 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/series/2024/</loc>
-    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/brandon-medical/</loc>
-    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/cisco/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/router/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/networking/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/series/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/brandon-medical/</loc>
     <lastmod>2024-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/work-experience/</loc>
@@ -26,19 +35,10 @@
     <loc>http://localhost:1313/smartsearch/</loc>
     <lastmod>2024-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/cisco/</loc>
-    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/router/</loc>
-    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/kvm/</loc>
     <lastmod>2024-04-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/linux/</loc>
-    <lastmod>2024-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/networking/</loc>
     <lastmod>2024-04-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/proxmox/</loc>

@@ -224,7 +224,7 @@
 
     </i>
     <span>
-      2 minutes to read
+      7 minutes to read
     </span>
   </div>
 </div>
@@ -238,15 +238,14 @@
   <ul>
     <li><a href="#pre-information">Pre-Information</a></li>
     <li><a href="#current-config">Current Config</a></li>
-    <li><a href="#common-commands">Common Commands</a>
+    <li><a href="#commands">Commands</a>
       <ul>
-        <li><a href="#save-current-config-to-startup">Save current config to startup</a></li>
-        <li><a href="#show-the-running-config">Show the running config</a></li>
-        <li><a href="#show-ip-interface-brief">Show IP interface brief</a></li>
-        <li><a href="#router-restart">Router Restart</a></li>
-        <li><a href="#set-an-ip-address">Set an IP address</a></li>
-        <li><a href="#changing-the-hostname">Changing the hostname</a></li>
-        <li><a href="#setting-a-console-password">Setting a console password</a></li>
+        <li><a href="#mode-control-commands">Mode Control Commands</a></li>
+        <li><a href="#basic-configuration-commands-list">Basic Configuration Commands List</a></li>
+        <li><a href="#troubleshooting-cisco-commands-list">Troubleshooting Cisco Commands List</a></li>
+        <li><a href="#routing-and-vlan-commands">Routing and VLAN Commands</a></li>
+        <li><a href="#dhcp-commands">DHCP Commands</a></li>
+        <li><a href="#security-commands">Security Commands</a></li>
       </ul>
     </li>
   </ul>
@@ -357,39 +356,346 @@ line vty 0 4
 scheduler allocate 20000 1000
 !
 end
-</code></pre><h2 id="common-commands">Common Commands</h2>
-<h3 id="save-current-config-to-startup">Save current config to startup</h3>
-<pre tabindex="0"><code>Router&gt; enable
-Router# copy running-config startup-config
-Destination filename [startup-config]? &lt;Enter&gt;
-</code></pre><h3 id="show-the-running-config">Show the running config</h3>
-<pre tabindex="0"><code>Router&gt; enable
-Router# show running-config
-</code></pre><h3 id="show-ip-interface-brief">Show IP interface brief</h3>
-<pre tabindex="0"><code>Router# show ip interface brief
-</code></pre><h3 id="router-restart">Router Restart</h3>
-<pre tabindex="0"><code>Router&gt; enable
-Router# reload
-</code></pre><h3 id="set-an-ip-address">Set an IP address</h3>
-<pre tabindex="0"><code>Router&gt; enable
-Router# configure terminal
-Router(config)# interface GigabitEthernet0/0
-Router(config-if)# ip address 10.0.0.1 255.0.0.0
-Router(config-if)# no shutdown
-Router(config-if)# exit
-Router(config)# exit
-</code></pre><h3 id="changing-the-hostname">Changing the hostname</h3>
-<pre tabindex="0"><code>Router&gt; enable
-Router# configure terminal
-Router(config)# hostname MyRouter
-</code></pre><h3 id="setting-a-console-password">Setting a console password</h3>
-<pre tabindex="0"><code>Router&gt; enable
-Router# configure terminal
-Router(config)# line console 0
-Router(config-line)# password myconsolepassword
-Router(config-line)# login
-Router(config-line)# exit
-</code></pre>
+</code></pre><h2 id="commands">Commands</h2>
+<h3 id="mode-control-commands">Mode Control Commands</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Enable</strong></td>
+<td>Moves a user from user exec mode into Privileged EXEC mode. Privileged exec mode is indicated by the <code>#</code> symbol in the command prompt.</td>
+</tr>
+<tr>
+<td><strong>configure terminal</strong></td>
+<td>Logs the user into Global Configuration mode</td>
+</tr>
+<tr>
+<td><strong>interface fastethernet/number</strong></td>
+<td>Enters interface configuration mode for the specified fast ethernet interface</td>
+</tr>
+</tbody>
+</table>
+<h3 id="basic-configuration-commands-list">Basic Configuration Commands List</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>reload</strong></td>
+<td>Reboots the Cisco switch or router</td>
+</tr>
+<tr>
+<td><strong>hostname name</strong></td>
+<td>Sets a host name to the current Cisco network device</td>
+</tr>
+<tr>
+<td><strong>copy from-location to-location</strong></td>
+<td>Copies files from one file location to another</td>
+</tr>
+<tr>
+<td><strong>copy running-config startup-config</strong></td>
+<td>Replaces the startup config with the active config when the Cisco network device initializes</td>
+</tr>
+<tr>
+<td><strong>copy startup-config running-config</strong></td>
+<td>Merges the startup config with the currently active config in RAM</td>
+</tr>
+<tr>
+<td><strong>write erase</strong> / <strong>erase startup-config</strong></td>
+<td>Deletes the startup config</td>
+</tr>
+<tr>
+<td><strong>ip address ip-address mask</strong></td>
+<td>Assigns the specified IP address and subnet mask</td>
+</tr>
+<tr>
+<td><strong>shutdown</strong> / <strong>no shutdown</strong></td>
+<td>Shuts the interface down (<code>shutdown</code>) or brings it up (<code>no shutdown</code>)</td>
+</tr>
+<tr>
+<td><strong>ip default-gateway ip_address</strong></td>
+<td>Sets the default gateway on the Cisco device</td>
+</tr>
+<tr>
+<td><strong>show running-config</strong></td>
+<td>Displays the current configuration of the device</td>
+</tr>
+<tr>
+<td><strong>show startup-config</strong></td>
+<td>Displays the saved configuration stored in the device’s NVRAM, which will be loaded when the device starts up</td>
+</tr>
+<tr>
+<td><strong>description string</strong></td>
+<td>Assigns the specified description to an interface</td>
+</tr>
+<tr>
+<td><strong>show running-config interface interface slot/number</strong></td>
+<td>Displays the running configuration for the specified interface</td>
+</tr>
+<tr>
+<td><strong>show ip interface [type number]</strong></td>
+<td>Displays the status of a network interface as well as a detailed listing of its IP configurations and related characteristics.</td>
+</tr>
+<tr>
+<td><strong>ip name-server serverip-1 serverip-2</strong></td>
+<td>Sets the IP address of or more DNS servers that the device can use to resolve hostnames to IP addresses.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="troubleshooting-cisco-commands-list">Troubleshooting Cisco Commands List</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>**ping {hostname</td>
+<td>system-address} [source source-address]**</td>
+</tr>
+<tr>
+<td>**speed {10</td>
+<td>100</td>
+</tr>
+<tr>
+<td>**duplex {auto</td>
+<td>full</td>
+</tr>
+<tr>
+<td><strong>cdp run</strong> / <strong>no cdp run</strong></td>
+<td>Enables or disables Cisco Discovery Protocol (CDP) for the device</td>
+</tr>
+<tr>
+<td><strong>show mac address-table</strong></td>
+<td>Displays the MAC address table</td>
+</tr>
+<tr>
+<td><strong>show cdp</strong></td>
+<td>Shows whether CDP is enabled globally</td>
+</tr>
+<tr>
+<td><strong>show cdp neighbors[detail]</strong></td>
+<td>Lists summary (or detailed) information about each neighbor connected to the device</td>
+</tr>
+<tr>
+<td><strong>show interfaces</strong></td>
+<td>Displays detailed information about interface status, settings and counters</td>
+</tr>
+<tr>
+<td><strong>show interface status</strong></td>
+<td>Displays the interface line status</td>
+</tr>
+<tr>
+<td><strong>show interfaces switchport</strong></td>
+<td>Displays many configuration settings and current operational status, including VLAN trunking details</td>
+</tr>
+<tr>
+<td><strong>show interfaces trunk</strong></td>
+<td>Lists information about the currently operational trunks and the VLANs supported by those trunks</td>
+</tr>
+<tr>
+<td><strong>show vlan</strong> / <strong>show vlan brief</strong></td>
+<td>Lists each VLAN and all interfaces assigned to that VLAN but does not include trunks</td>
+</tr>
+<tr>
+<td><strong>show vtp status</strong></td>
+<td>Lists the current VLAN Trunk Protocol (VTP) status, including the current mode</td>
+</tr>
+</tbody>
+</table>
+<h3 id="routing-and-vlan-commands">Routing and VLAN Commands</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>show ip route</strong></td>
+<td>Displays the current state of the IP routing of all known routes that are either statically configured or learned dynamically through a routing protocol</td>
+</tr>
+<tr>
+<td>**ip route network-number network-mask {ip-address</td>
+<td>interface}**</td>
+</tr>
+<tr>
+<td><strong>router rip</strong></td>
+<td>Enables a Routing Information Protocol (RIP) routing process, which places you in router configuration mode</td>
+</tr>
+<tr>
+<td><strong>network ip-address</strong></td>
+<td>Associates a network with a RIP routing process</td>
+</tr>
+<tr>
+<td><strong>version 2</strong></td>
+<td>Configures the software to receive and send only RIP version 2 packets</td>
+</tr>
+<tr>
+<td><strong>no auto-summary</strong></td>
+<td>Disables automatic summarization</td>
+</tr>
+<tr>
+<td><strong>default-information originate</strong></td>
+<td>Generates a default route into RIP</td>
+</tr>
+<tr>
+<td><strong>passive-interface interface</strong></td>
+<td>Sets the specified interface to passive RIP mode, which means RIP routing updates are accepted by, but not sent out of, the interface</td>
+</tr>
+<tr>
+<td><strong>show ip rip database</strong></td>
+<td>Displays the contents of the RIP routing database</td>
+</tr>
+<tr>
+<td>**ip nat [inside</td>
+<td>outside]**</td>
+</tr>
+<tr>
+<td>**ip nat inside source {list{access-list-number</td>
+<td>access-list-name}} interface type number[overload]**</td>
+</tr>
+<tr>
+<td><strong>ip nat inside source static local-ip global-ip</strong></td>
+<td>Establishes a static translation between an inside local address and an inside global address</td>
+</tr>
+<tr>
+<td><strong>vlan</strong></td>
+<td>Creates a VLAN and enters VLAN configuration mode for further definitions</td>
+</tr>
+<tr>
+<td><strong>switchport access vlan</strong></td>
+<td>Sets the VLAN that the interface belongs to</td>
+</tr>
+<tr>
+<td><strong>switchport trunk encapsulation dot1q</strong></td>
+<td>Specifies 802.1Q encapsulation on the trunk link</td>
+</tr>
+<tr>
+<td><strong>switchport access</strong></td>
+<td>Configures a specific Ethernet port on a switch to operate in access mode to accommodate an end device such as a computer, server or printer. The port must then be assigned to a single VLAN.</td>
+</tr>
+<tr>
+<td><strong>vlan vlan-id [name vlan-name]</strong></td>
+<td>Configures a specific VLAN name (1 to 32 characters)</td>
+</tr>
+<tr>
+<td>**switchport mode { access</td>
+<td>trunk }**</td>
+</tr>
+<tr>
+<td><strong>switchport trunk {encapsulation { dot1q }}</strong></td>
+<td>Sets the trunk characteristics when the interface is in trunking mode. In this mode, the switch supports simultaneous tagged and untagged traffic on a port.</td>
+</tr>
+<tr>
+<td><strong>encapsulation dot1q vlan-id</strong></td>
+<td>Defines the matching criteria to map 802.1Q frames ingress on an interface to the appropriate service instance</td>
+</tr>
+<tr>
+<td><strong>show spanning-tree</strong></td>
+<td>Provides detailed information about the Spanning Tree protocol for all VLANs</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dhcp-commands">DHCP Commands</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ip address dhcp</strong></td>
+<td>Acquires an IP address on an interface via DHCP</td>
+</tr>
+<tr>
+<td><strong>ip dhcp pool name</strong></td>
+<td>Used to configure a DHCP address pool on a DHCP server and enter DHCP pool configuration mode</td>
+</tr>
+<tr>
+<td><strong>domain-name domain</strong></td>
+<td>Specifies the domain name for a DHCP client</td>
+</tr>
+<tr>
+<td><strong>network network-number [mask]</strong></td>
+<td>Configures the network number and mask for a DHCP address pool primary or secondary subnet on a Cisco IOS DHCP server</td>
+</tr>
+<tr>
+<td><strong>ip dhcp excluded-address ip-address [last-ip-address]</strong></td>
+<td>Specifies IP addresses that a DHCP server should not assign to DHCP clients</td>
+</tr>
+<tr>
+<td><strong>ip helper-address address</strong></td>
+<td>Enables forwarding of UDP broadcasts, including BOOTP, received on an interface</td>
+</tr>
+<tr>
+<td><strong>default-router address[address2 &hellip; address8]</strong></td>
+<td>Specifies the default routers for a DHCP client</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-commands">Security Commands</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Password pass-value</strong></td>
+<td>Lists the password that is required if the login command (with no other parameters) is configured</td>
+</tr>
+<tr>
+<td><strong>username name password pass-value</strong></td>
+<td>Defines one of possibly multiple user names and associated passwords used for user authentication. It is used when the login local line configuration command has been used.</td>
+</tr>
+<tr>
+<td><strong>enable password pass-value</strong></td>
+<td>Defines the password required when using the enable command</td>
+</tr>
+<tr>
+<td><strong>enable secret pass-value</strong></td>
+<td>Sets the password required for any user to enter enable mode</td>
+</tr>
+<tr>
+<td><strong>service password-encryption</strong></td>
+<td>Directs the Cisco IOS software to encrypt the passwords, CHAP secrets and similar data saved in its configuration file</td>
+</tr>
+<tr>
+<td><strong>ip domain-name name</strong></td>
+<td>Configures a DNS domain name</td>
+</tr>
+<tr>
+<td><strong>crypto key generate rsa</strong></td>
+<td>Creates and stores (in a hidden location in flash memory) the keys that are required by SSH</td>
+</tr>
+<tr>
+<td>**transport input {telnet</td>
+<td>ssh}**</td>
+</tr>
+<tr>
+<td>**</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
       </article>
 
       
