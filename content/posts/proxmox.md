@@ -2,7 +2,7 @@
 title: "Proxmox"
 date: 2024-04-17
 url: /proxmox
-image: https://github.com/SilentSmeary/SilentSmeary/blob/main/images/hugo/proxmox.jpg?raw=true
+image: https://github.com/SilentSmeary/hugo/blob/master/images/posts/2024/proxmox.png?raw=true
 categories:
   - Linux
   - Servers

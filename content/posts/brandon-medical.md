@@ -2,7 +2,7 @@
 title: "Brandon Medical Work Placement"
 date: 2024-05-18
 url: /brandon-medical
-image: https://raw.githubusercontent.com/SilentSmeary/SilentSmeary/main/images/hugo/BrandonMedical.webp
+image: https://github.com/SilentSmeary/hugo/blob/master/images/posts/2024/brandon-medical.png?raw=true
 categories:
   - Work Experience
 series:

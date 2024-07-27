@@ -2,7 +2,7 @@
 title: "Smartsearch Game"
 date: 2024-05-05
 url: /smartsearch
-image: https://raw.githubusercontent.com/SilentSmeary/SilentSmeary/main/images/hugo/smartsearch.jpg
+image: https://github.com/SilentSmeary/hugo/blob/master/images/posts/2024/smartsearch.png?raw=true
 categories:
   - Work Experience
 series:

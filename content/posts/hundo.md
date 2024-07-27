@@ -2,7 +2,7 @@
 title: "Hundo Work Experience"
 date: 2024-02-24
 url: /hundo
-image: https://github.com/SilentSmeary/SilentSmeary/blob/main/images/hugo/hundo.jpeg?raw=true
+image: https://github.com/SilentSmeary/hugo/blob/master/images/posts/2024/hundo.png?raw=true
 categories:
   - Work Experience
 series:

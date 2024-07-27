@@ -2,7 +2,7 @@
 title: "Cisco Router"
 date: 2024-06-24
 url: /router 
-image: https://www.bleepstatic.com/content/hl-images/2020/10/20/Cisco.jpg
+image: https://github.com/SilentSmeary/hugo/blob/master/images/posts/2024/cisco.png?raw=true
 categories:
   - Cisco
   - Networking
