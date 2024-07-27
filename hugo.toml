@@ -12,7 +12,7 @@ theme = "tailwind"
   contentTypeName = "posts"
 
   [params.header]
-    logo = "https://raw.githubusercontent.com/SilentSmeary/SilentSmeary/main/images/pfp/logo.webp"
+    logo = "https://github.com/SilentSmeary/hugo/blob/master/images/logo.png?raw=true"
 
   [params.footer]
     since = 2024
