@@ -17,13 +17,6 @@
       <description>Pre-Information The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address. There are 0 VLAN&amp;rsquo;s currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.</description>
     </item>
     <item>
-      <title>Brandon Medical Work Placement</title>
-      <link>http://localhost:1313/brandon-medical/</link>
-      <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/brandon-medical/</guid>
-      <description>Introduction As part of the Digital T-Level we are required to do 45 days work placement.</description>
-    </item>
-    <item>
       <title>Smartsearch Game</title>
       <link>http://localhost:1313/smartsearch/</link>
       <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>

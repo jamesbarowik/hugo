@@ -2,7 +2,7 @@
 title: "Cisco Router"
 date: 2024-06-24
 url: /router 
-image: https://github.com/SilentSmeary/hugo/blob/master/images/posts/2024/cisco.png?raw=true
+image: https://github.com/SilentSmeary/hugo/blob/master/images/posts/2024/cisco-1942.png?raw=true
 categories:
   - Cisco
   - Networking
@@ -11,7 +11,7 @@ series:
 draft: false
 ---
 ## Pre-Information
-The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address. There are 0 VLAN's currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.
+The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address.  There are 0 VLAN's currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.
 ## Current Config
 
 ```
