@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>James Barowik</copyright>
-    <lastBuildDate>Sun, 28 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brandon Medical</title>
+      <link>http://localhost:1313/brandon-medical/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/brandon-medical/</guid>
+      <description>Intro: My Role: When I first joined the Brandon Team&#xA;Project Management: Somewhere near the end of the project I had the idea that we should have a interface to manage the project and manage the tasks that were required with the BML-Moodle, as we were currently using email to manage the tasks that were required this would lead to some of the information been lost, and parts of the information been miss understood or required further explanation that hindered the task.</description>
+    </item>
     <item>
       <title>Raspberry Pi Bash Project</title>
       <link>http://localhost:1313/rpi5-bash/</link>
