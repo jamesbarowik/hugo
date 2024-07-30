@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="Introduction We needed a safe fast and secure solution for storage. We need a solution that supported both Windows Shares (SMB) and Linux Shares. With the requirements that we need and the hardware that we have the search began. For the OS that was compatible with our older hardware and that worked with never drives that were harvested from our old college machines that were no longer in use.
-Final Choice After a few days searching and countless failed attempts to deploy a working server we found TrueNAS Scale and Core."
+  content="Introduction: We needed a safe fast and secure solution for storage. We need a solution that supported both Windows Shares (SMB) and Linux Shares. With the requirements that we need and the hardware that we have the search began. For the OS that was compatible with our older hardware and that worked with never drives that were harvested from our old college machines that were no longer in use.
+Final Choice: After a few days searching and countless failed attempts to deploy a working server we found TrueNAS Scale and Core."
 />
 <meta
   name="keywords"
@@ -18,8 +18,8 @@ Final Choice After a few days searching and countless failed attempts to deploy 
 <meta property="og:url" content="http://localhost:1313/truenas/">
   <meta property="og:site_name" content="Portfolio">
   <meta property="og:title" content="TrueNAS Scale">
-  <meta property="og:description" content="Introduction We needed a safe fast and secure solution for storage. We need a solution that supported both Windows Shares (SMB) and Linux Shares. With the requirements that we need and the hardware that we have the search began. For the OS that was compatible with our older hardware and that worked with never drives that were harvested from our old college machines that were no longer in use.
-Final Choice After a few days searching and countless failed attempts to deploy a working server we found TrueNAS Scale and Core.">
+  <meta property="og:description" content="Introduction: We needed a safe fast and secure solution for storage. We need a solution that supported both Windows Shares (SMB) and Linux Shares. With the requirements that we need and the hardware that we have the search began. For the OS that was compatible with our older hardware and that worked with never drives that were harvested from our old college machines that were no longer in use.
+Final Choice: After a few days searching and countless failed attempts to deploy a working server we found TrueNAS Scale and Core.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -34,8 +34,8 @@ Final Choice After a few days searching and countless failed attempts to deploy 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="TrueNAS Scale">
-  <meta name="twitter:description" content="Introduction We needed a safe fast and secure solution for storage. We need a solution that supported both Windows Shares (SMB) and Linux Shares. With the requirements that we need and the hardware that we have the search began. For the OS that was compatible with our older hardware and that worked with never drives that were harvested from our old college machines that were no longer in use.
-Final Choice After a few days searching and countless failed attempts to deploy a working server we found TrueNAS Scale and Core.">
+  <meta name="twitter:description" content="Introduction: We needed a safe fast and secure solution for storage. We need a solution that supported both Windows Shares (SMB) and Linux Shares. With the requirements that we need and the hardware that we have the search began. For the OS that was compatible with our older hardware and that worked with never drives that were harvested from our old college machines that were no longer in use.
+Final Choice: After a few days searching and countless failed attempts to deploy a working server we found TrueNAS Scale and Core.">
 
 
 <link rel="canonical" href="http://localhost:1313/truenas/" />
@@ -239,11 +239,11 @@ Final Choice After a few days searching and countless failed attempts to deploy 
           <h2>Table of Contents</h2>
           <aside><nav id="TableOfContents">
   <ul>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#final-choice">Final Choice</a></li>
-    <li><a href="#hardware-specs">Hardware Specs</a></li>
-    <li><a href="#installation-process">Installation Process</a></li>
-    <li><a href="#storage-drives">Storage Drives</a></li>
+    <li><a href="#introduction">Introduction:</a></li>
+    <li><a href="#final-choice">Final Choice:</a></li>
+    <li><a href="#hardware-specs">Hardware Specs:</a></li>
+    <li><a href="#installation-process">Installation Process:</a></li>
+    <li><a href="#storage-drives">Storage Drives:</a></li>
   </ul>
 </nav></aside>
         </section>
@@ -251,18 +251,18 @@ Final Choice After a few days searching and countless failed attempts to deploy 
       
 
       <article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content">
-        <h2 id="introduction">Introduction</h2>
+        <h2 id="introduction">Introduction:</h2>
 <p>We needed a safe fast and secure solution for storage. We need a solution that supported both Windows Shares (SMB) and Linux Shares. With the requirements that we need and the hardware that we have the search began. For the OS that was compatible with our older hardware and that worked with never drives that were harvested from our old college machines that were no longer in use.</p>
-<h2 id="final-choice">Final Choice</h2>
+<h2 id="final-choice">Final Choice:</h2>
 <p>After a few days searching and countless failed attempts to deploy a working server we found TrueNAS Scale and Core. After looking into the documentation for both of them. We found that it was not viable for use TrueNAS Scale as it ment we needed two boot drives this would have made the machines more redundant incase of a drive failure. For a long term solution this would have been much more viable. But we didnt not have the drive bays aviable for the space that we wanted. As the server only had 6 bays we decided to go for the TrueNAS Core which required us to have one boot drive. Which was perfect for our situation.</p>
-<h2 id="hardware-specs">Hardware Specs</h2>
+<h2 id="hardware-specs">Hardware Specs:</h2>
 <p>The server chasis is a Fujitsu RX300 S7. On the front of the server there are 6 SATA ports in the front of the server. That are connect with a SAS connected to the PCIE Raid Card on the motherboard. The server has two CPUs both Intel Xeon E5-2620 with 12 cores and 24 threads. We decided to make the server have as much memory as we had available this was to make sure that we were able to set the RAM and the primary cache so that the drives could handle the max efficenty psible and always be running and handling data the fastest possible speed. 192GB DDR3 1066 mhz memory.</p>
-<h2 id="installation-process">Installation Process</h2>
+<h2 id="installation-process">Installation Process:</h2>
 <p>For more information about installation
 <a href="https://www.truenas.com/docs/" target="_blank" rel="noopener">https://www.truenas.com/docs/</a>
 </p>
 <p>The installation process was mostly normal there was no major hickups with the installation. Once the OS was installed the first hurdle was fighting with the network card. I wanted to make sure that we had the fastest Network Card to make sure that users were able to upload larger files at the the same time and not stress the network attempting the tasks. The servers came with the added network card by standard when they arrvied. We had the 2 ports that were standard to the motherboard, there was then two ports that were added with one of the extra network cards. We had another network card that added four more ports. There was one more network card that added two SFP ports. that we were not set up to use effectively so I decided to take that extra card out of the server to reduce the slots that showed up on there already. From there it was configurating the network, I had assigned the Static IP to the required port and made sure that the port was given the network by checking the network link lights on the network card. They were both flashing to indicate that the network was connected and authenticated. I attempted to connect to the website and recived the first error of the day. The IP was inaccessable. From there we spent some timeW attempting to fix the network errors with no outcome we decided that the best choice was to setup a DHCP pool on our VLAN to get DHCP to hand out and IP to give us the correct networking information, which allowed for straight connection. This allowed for us to make the connection and then change the IP on the socket to be a Static IP to make deployment much easier</p>
-<h2 id="storage-drives">Storage Drives</h2>
+<h2 id="storage-drives">Storage Drives:</h2>
 <ul>
 <li>1x 240GB Kingston SSD [BOOT]</li>
 <li>5x 480GB Kingston SSD [STORAGE]</li>

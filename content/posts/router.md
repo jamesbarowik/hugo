@@ -10,10 +10,10 @@ series:
  - 2024 
 draft: false
 ---
-## Pre-Information
+## Pre-Information:
 The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address.  There are 0 VLAN's currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.
-## Current Config
 
+## Current Config:
 ```
 Current configuration : 1583 bytes
 !
@@ -114,7 +114,7 @@ scheduler allocate 20000 1000
 !
 end
 ```
-## Commands
+## Commands:
 ### Mode Control Commands
 
 | Command                    | Description                                                                 |

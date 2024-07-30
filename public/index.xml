@@ -14,42 +14,42 @@
       <link>http://localhost:1313/rpi5-bash/</link>
       <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/rpi5-bash/</guid>
-      <description>Introduction To further my career and learning, and the installation of the Raspberry Pi Cluster. I looked into creating a bash script, that would automate the process as much as possible to reduce the amount of time that it took to setup and install all of the machines. Something that I would like to look into in the future is the addition of a deployment server that install the OS automatically across the network of machines.</description>
+      <description>Introduction: To further my career and learning, and the installation of the Raspberry Pi Cluster. I looked into creating a bash script, that would automate the process as much as possible to reduce the amount of time that it took to setup and install all of the machines. Something that I would like to look into in the future is the addition of a deployment server that install the OS automatically across the network of machines.</description>
     </item>
     <item>
       <title>Cisco Router</title>
       <link>http://localhost:1313/router/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/router/</guid>
-      <description>Pre-Information The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address. There are 0 VLAN&amp;rsquo;s currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.</description>
+      <description>Pre-Information: The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address. There are 0 VLAN&amp;rsquo;s currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.</description>
     </item>
     <item>
       <title>Smartsearch Game</title>
       <link>http://localhost:1313/smartsearch/</link>
       <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/smartsearch/</guid>
-      <description>Introduction Smartsearch approached the UTC with an idea that they wanted to make a game to showcase there company at events. We initial met with them in person and spoke with Dan that was our a lead contact at Smartsearch and the team. We also met with David who is one of the software developers at SmartSearch he assisted along the way with more of the team management to ensure that we were on the right tracks and that we made a viable product at the end that could be used to bring people to the SmartSearch stand and get them interetsed.</description>
+      <description>Introduction: Smartsearch approached the UTC with an idea that they wanted to make a game to showcase there company at events. We initial met with them in person and spoke with Dan that was our a lead contact at Smartsearch and the team. We also met with David who is one of the software developers at SmartSearch he assisted along the way with more of the team management to ensure that we were on the right tracks and that we made a viable product at the end that could be used to bring people to the SmartSearch stand and get them interetsed.</description>
     </item>
     <item>
       <title>Proxmox</title>
       <link>http://localhost:1313/proxmox/</link>
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/proxmox/</guid>
-      <description>Introduction Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions that ment I was able to learn more with the hardware and I stumbled across Proxmox.&#xA;Proxmox is a free and open source solution to virutalisation that allows for the creation of virtual machines using any operating system.</description>
+      <description>Introduction: Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions that ment I was able to learn more with the hardware and I stumbled across Proxmox.&#xA;Proxmox is a free and open source solution to virutalisation that allows for the creation of virtual machines using any operating system.</description>
     </item>
     <item>
       <title>Hundo Work Experience</title>
       <link>http://localhost:1313/hundo/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/hundo/</guid>
-      <description>Introduction As part of the Digital T-Level we are required to complete a minmum of 45 days work experience. For this project we worked with Leeds City Council and Hundo&#xA;Hundo&amp;rsquo;s project was to provide digital work experience for Digital Students such as our selfs. So it made for a perfect opportunity to work and gain connections with external companies as well as completing 10 of our 45 days&#xA;The Brief Over the course of the next 5 weeks, you will work with hundo to design, build and promote a product for Leeds City Council.</description>
+      <description>Introduction: As part of the Digital T-Level we are required to complete a minmum of 45 days work experience. For this project we worked with Leeds City Council and Hundo&#xA;Hundo&amp;rsquo;s project was to provide digital work experience for Digital Students such as our selfs. So it made for a perfect opportunity to work and gain connections with external companies as well as completing 10 of our 45 days&#xA;The Brief: Over the course of the next 5 weeks, you will work with hundo to design, build and promote a product for Leeds City Council.</description>
     </item>
     <item>
       <title>TrueNAS Scale</title>
       <link>http://localhost:1313/truenas/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/truenas/</guid>
-      <description>Introduction We needed a safe fast and secure solution for storage. We need a solution that supported both Windows Shares (SMB) and Linux Shares. With the requirements that we need and the hardware that we have the search began. For the OS that was compatible with our older hardware and that worked with never drives that were harvested from our old college machines that were no longer in use.&#xA;Final Choice After a few days searching and countless failed attempts to deploy a working server we found TrueNAS Scale and Core.</description>
+      <description>Introduction: We needed a safe fast and secure solution for storage. We need a solution that supported both Windows Shares (SMB) and Linux Shares. With the requirements that we need and the hardware that we have the search began. For the OS that was compatible with our older hardware and that worked with never drives that were harvested from our old college machines that were no longer in use.&#xA;Final Choice: After a few days searching and countless failed attempts to deploy a working server we found TrueNAS Scale and Core.</description>
     </item>
     <item>
       <title></title>

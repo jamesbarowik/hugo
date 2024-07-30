@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="Introduction To further my career and learning, and the installation of the Raspberry Pi Cluster. I looked into creating a bash script, that would automate the process as much as possible to reduce the amount of time that it took to setup and install all of the machines. Something that I would like to look into in the future is the addition of a deployment server that install the OS automatically across the network of machines."
+  content="Introduction: To further my career and learning, and the installation of the Raspberry Pi Cluster. I looked into creating a bash script, that would automate the process as much as possible to reduce the amount of time that it took to setup and install all of the machines. Something that I would like to look into in the future is the addition of a deployment server that install the OS automatically across the network of machines."
 />
 <meta
   name="keywords"
@@ -17,7 +17,7 @@
 <meta property="og:url" content="http://localhost:1313/rpi5-bash/">
   <meta property="og:site_name" content="Portfolio">
   <meta property="og:title" content="Raspberry Pi Bash Project">
-  <meta property="og:description" content="Introduction To further my career and learning, and the installation of the Raspberry Pi Cluster. I looked into creating a bash script, that would automate the process as much as possible to reduce the amount of time that it took to setup and install all of the machines. Something that I would like to look into in the future is the addition of a deployment server that install the OS automatically across the network of machines.">
+  <meta property="og:description" content="Introduction: To further my career and learning, and the installation of the Raspberry Pi Cluster. I looked into creating a bash script, that would automate the process as much as possible to reduce the amount of time that it took to setup and install all of the machines. Something that I would like to look into in the future is the addition of a deployment server that install the OS automatically across the network of machines.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -32,7 +32,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Raspberry Pi Bash Project">
-  <meta name="twitter:description" content="Introduction To further my career and learning, and the installation of the Raspberry Pi Cluster. I looked into creating a bash script, that would automate the process as much as possible to reduce the amount of time that it took to setup and install all of the machines. Something that I would like to look into in the future is the addition of a deployment server that install the OS automatically across the network of machines.">
+  <meta name="twitter:description" content="Introduction: To further my career and learning, and the installation of the Raspberry Pi Cluster. I looked into creating a bash script, that would automate the process as much as possible to reduce the amount of time that it took to setup and install all of the machines. Something that I would like to look into in the future is the addition of a deployment server that install the OS automatically across the network of machines.">
 
 
 <link rel="canonical" href="http://localhost:1313/rpi5-bash/" />
@@ -243,8 +243,8 @@
           <h2>Table of Contents</h2>
           <aside><nav id="TableOfContents">
   <ul>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#commands">Commands</a>
+    <li><a href="#introduction">Introduction:</a></li>
+    <li><a href="#commands">Commands:</a>
       <ul>
         <li><a href="#apt">apt</a></li>
         <li><a href="#wget">wget</a></li>
@@ -253,13 +253,13 @@
         <li><a href="#dpkg">dpkg</a></li>
       </ul>
     </li>
-    <li><a href="#file-types">File Types</a>
+    <li><a href="#file-types">File Types:</a>
       <ul>
         <li><a href="#desktop">.desktop</a></li>
       </ul>
     </li>
-    <li><a href="#final-script">Final Script</a></li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#final-script">Final Script:</a></li>
+    <li><a href="#usage">Usage:</a></li>
   </ul>
 </nav></aside>
         </section>
@@ -267,7 +267,7 @@
       
 
       <article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content">
-        <h2 id="introduction">Introduction</h2>
+        <h2 id="introduction">Introduction:</h2>
 <p>To further my career and learning, and the installation of the Raspberry Pi Cluster. I looked into creating a bash script, that would automate the process as much as possible to reduce the amount of time that it took to setup and install all of the machines. Something that I would like to look into in the future is the addition of a deployment server that install the OS automatically across the network of machines. I currently have no idea how I’d go about doing that so using a bash based automated process.</p>
 <p>I checked around for other examples of bash scripting and bash found similar things to what I was doing, The first time I tried to do this I had the files on a USB Stick which was a lot slower as the file transfer was much slower than the internet speed.</p>
 <p>I made sure that i added a .gitignore to remove and files that weren&rsquo;t required during the running of the script, this is to reduce the size of the repo to increase the cloning speed to setup the initial script and ensure that everything is running correctly.</p>
@@ -296,7 +296,7 @@
 <li>realmd</li>
 <li>adcli</li>
 </ul>
-<h2 id="commands">Commands</h2>
+<h2 id="commands">Commands:</h2>
 <p>These are a few of the basic commands that i used with a brief notes about what they do, from a very basic understanding</p>
 <h3 id="apt">apt</h3>
 <pre tabindex="0"><code>sudo apt update
@@ -315,7 +315,7 @@ sudo nmcli connection modify &#39;tlevel-digital&#39; ipv4.ignore-auto-dns yes
 <h3 id="dpkg">dpkg</h3>
 <pre tabindex="0"><code>sudo dpkg -i projectlibre_1.9.3-1.deb
 </code></pre><p>dpkg is a Debian based command line tool to install .deb files on the system this is used for a few of the packages that have been installed.</p>
-<h2 id="file-types">File Types</h2>
+<h2 id="file-types">File Types:</h2>
 <h3 id="desktop">.desktop</h3>
 <pre tabindex="0"><code>[Desktop Entry]
 Version=1.0
@@ -326,10 +326,10 @@ Name=PhpStorm
 Comment=Jetbrains PHP IDE
 Icon=/opt/PhpStorm/bin/phpstorm.png
 </code></pre><p>A .desktop file is the way that you are supposed to add new applications to the gnome start menu as the Machines are using Ubuntu, it is important for users that are too familiar with linux to be able to use the start menu to open and locate common software. The example that was shown above is for PhpStorm, another features that I am in the middle of implementing is phpmyAdmin so that the users are able to select the phpmyAdmin site without needing to know the IP address of the server that is running phpmyAdmin as we aren&rsquo;t running that locally on the Pi&rsquo;s as they aren&rsquo;t that powerful. The post will be updated in the future to add more and more features that I have added.</p>
-<h2 id="final-script">Final Script</h2>
+<h2 id="final-script">Final Script:</h2>
 <p><a href="https://github.com/SilentSmeary/rpi-bash" target="_blank" rel="noopener">https://github.com/SilentSmeary/rpi-bash</a>
 </p>
-<h2 id="usage">Usage</h2>
+<h2 id="usage">Usage:</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git clone https://github.com/silentsmeary/rpi-bash
 </span></span><span style="display:flex;"><span>cd rpi-bash
 </span></span><span style="display:flex;"><span>./setup.sh

@@ -10,7 +10,7 @@ categories:
 series:
  - 2024 
 ---
-## Introduction
+## Introduction:
 To further my career and learning, and the installation of the Raspberry Pi Cluster. I looked into creating a bash script, that would automate the process as much as possible to reduce the amount of time that it took to setup and install all of the machines. Something that I would like to look into in the future is the addition of a deployment server that install the OS automatically across the network of machines. I currently have no idea how I’d go about doing that so using a bash based automated process.
 
 I checked around for other examples of bash scripting and bash found similar things to what I was doing, The first time I tried to do this I had the files on a USB Stick which was a lot slower as the file transfer was much slower than the internet speed.
@@ -41,7 +41,7 @@ I also added the local-downloads folder to ensure that any files that were downl
 - realmd
 - adcli
 
-## Commands
+## Commands:
 These are a few of the basic commands that i used with a brief notes about what they do, from a very basic understanding
 
 ### apt
@@ -76,7 +76,7 @@ sudo dpkg -i projectlibre_1.9.3-1.deb
 ```
 dpkg is a Debian based command line tool to install .deb files on the system this is used for a few of the packages that have been installed.
 
-## File Types
+## File Types:
 ### .desktop
 ```
 [Desktop Entry]
@@ -90,10 +90,10 @@ Icon=/opt/PhpStorm/bin/phpstorm.png
 ```
 A .desktop file is the way that you are supposed to add new applications to the gnome start menu as the Machines are using Ubuntu, it is important for users that are too familiar with linux to be able to use the start menu to open and locate common software. The example that was shown above is for PhpStorm, another features that I am in the middle of implementing is phpmyAdmin so that the users are able to select the phpmyAdmin site without needing to know the IP address of the server that is running phpmyAdmin as we aren't running that locally on the Pi's as they aren't that powerful. The post will be updated in the future to add more and more features that I have added.
 
-## Final Script
+## Final Script:
 https://github.com/SilentSmeary/rpi-bash
 
-## Usage
+## Usage:
 ```sh
 git clone https://github.com/silentsmeary/rpi-bash
 cd rpi-bash
