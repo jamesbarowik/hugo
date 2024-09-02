@@ -7,7 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="Introduction: "
+  content="Introduction: I had wanted to learn linux for the longest time but never really got the opportunity as in a learning situation Windows was the operating system that was used, then same for the work placement. Which ment I got really comfortable using the Windows operating system.
+Linux was something that interetsted me from the first time that I had looked into it as it was different from everthing else that I&amp;rsquo;d use before."
 />
 <meta
   name="keywords"
@@ -17,7 +18,8 @@
 <meta property="og:url" content="http://localhost:1313/silent-debian/">
   <meta property="og:site_name" content="Portfolio">
   <meta property="og:title" content="Silent Debian Script">
-  <meta property="og:description" content="Introduction: ">
+  <meta property="og:description" content="Introduction: I had wanted to learn linux for the longest time but never really got the opportunity as in a learning situation Windows was the operating system that was used, then same for the work placement. Which ment I got really comfortable using the Windows operating system.
+Linux was something that interetsted me from the first time that I had looked into it as it was different from everthing else that I’d use before.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -33,7 +35,8 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Silent Debian Script">
-  <meta name="twitter:description" content="Introduction: ">
+  <meta name="twitter:description" content="Introduction: I had wanted to learn linux for the longest time but never really got the opportunity as in a learning situation Windows was the operating system that was used, then same for the work placement. Which ment I got really comfortable using the Windows operating system.
+Linux was something that interetsted me from the first time that I had looked into it as it was different from everthing else that I’d use before.">
 
 
 <link rel="canonical" href="http://localhost:1313/silent-debian/" />
@@ -225,7 +228,7 @@
 
     </i>
     <span>
-      One minute to read
+      4 minutes to read
     </span>
   </div>
 </div>
@@ -238,6 +241,9 @@
           <aside><nav id="TableOfContents">
   <ul>
     <li><a href="#introduction">Introduction:</a></li>
+    <li><a href="#the-actual-script">The actual script:</a></li>
+    <li><a href="#other">Other:</a></li>
+    <li><a href="#link-to-the-repo">Link to the Repo:</a></li>
   </ul>
 </nav></aside>
         </section>
@@ -246,6 +252,29 @@
 
       <article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content">
         <h2 id="introduction">Introduction:</h2>
+<p>I had wanted to learn linux for the longest time but never really got the opportunity as in a learning situation Windows was the operating system that was used, then same for the work placement. Which ment I got really comfortable using the Windows operating system.</p>
+<p>Linux was something that interetsted me from the first time that I had looked into it as it was different from everthing else that I&rsquo;d use before. I have previously used Windows 7, 8, 8.1, 10 and am currently writing this from a Windows 11 machine. I would be daily driving linux on my Main Machine but there was some issues related to the graphics card that made it nearly impossible for that to happen</p>
+<p>As part of College I was given the chance to be placed on a Bursary Scheme which ment that I was able to get resources purchased for me, As the only course that I did was the Digital T Level I wanted a laptop, I had browsed the market for laptops for a good couple of days before stumbling across the Lenovo ThinkPad T480s which for me was the perfect laptop, The reviews that I had read and watched stated that the battery life was amazing which ment I could work on the move and didnt have to worry about my computer running out of battery. The T480s is sold in a 14&quot; inch variant which meant that it wasn&rsquo;t too big to carrry around all day and ment that it was still large enough to do daily work with no issues. The laptop has 16GB of DDR4 3200mhz RAM which was more then enough with half been soldered and half been on the board in Sodimm format it ment that I could replace or upgrade if required.</p>
+<p>After the laptop had arrived I spent a few days checking around for the best linux distro that worked for me and did everything that I need it to do. After searching and installing various operating systems I had found that Debian 12 (Bookworm) worked the best for me as it was quick supported the KDE Plasma Desktop Environment.</p>
+<p>Now onto the point of the blog post.</p>
+<h2 id="the-actual-script">The actual script:</h2>
+<p>I had previously made one bash script before that was for the RPi-5 with the whole goal of that been to automate the install process of them for college, This in the meantime was for myself and any others that were intersted in using the script</p>
+<p>I wanted to make it as quick and easy as possible that is what I decided to move to using the package manager <a href="https://gitlab.com/volian/nala" target="_blank" rel="noopener">nala</a>
+ that was benchmarked to be 16x faster than normal apt-get</p>
+<p>Firstly, I wanted to make sure that the script removed most of the default KDE programs that personally I didn&rsquo;t use or had alernatvies for that I had used for a long time before so felt no need to change and stop using them.</p>
+<p>After that I made sure that the browser that I used got installed <a href="https://github.com/Alex313031/thorium" target="_blank" rel="noopener">Thorium</a>
+ Aswell as Visual Studio Code, Github Desktop Client and a few other nice utility programs were installed aswell</p>
+<p>I made sure that I installed virt-manager as in my opinon is it the best Virtual Machine manager that is on linux.</p>
+<p>To make sure that the script didn&rsquo;t leave files everywhere I made sure to do all of the downloads to a temp folder called &ldquo;local-downloads&rdquo; this ment that the folder could be deleted everytime to reduce the size of the system and to reduce the chance of errors as there might be more than one of the same file that was downloaded.</p>
+<p>When the first version of the script was ready I had the intent for people to use it via cloning the git repo this seemed a bit clunky and could have caused some issues for people who aren&rsquo;t that experienced with git cli.</p>
+<p>After checking out other Linux Toolbox Repo&rsquo;s main the <a href="https://github.com/christitustech/linutil" target="_blank" rel="noopener">ChrisTitusTech LinUtil Repo</a>
+ and found that it was possible to curl the setup.sh file that would mean you didnt need to download the whole git repo and then run it like that. This meant that the script could be used via one command</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl -fsSL https://raw.githubusercontent.com/SilentSmeary/silent-debian/main/setup.sh | sh
+</span></span></code></pre></div><h2 id="other">Other:</h2>
+<p>As part of learning linux I also found that Chris Titus had made a fully automated script for installing a good looking and useful terminal so in the README.md my repo I have also linked that with credits and given instructions on how to use this</p>
+<h2 id="link-to-the-repo">Link to the Repo:</h2>
+<p><a href="https://github.com/silentsmeary/silent-debian" target="_blank" rel="noopener">https://github.com/silentsmeary/silent-debian</a>
+</p>
 
       </article>
 
@@ -298,6 +327,27 @@
 
   </footer>
   <script src="/main.js"></script>
+
+<div class="hidden top-1 right-1" id="code-copy">
+  <i class="h-6 w-6 block">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copy" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+  <path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" />
+</svg>
+
+  </i>
+</div>
+<div class="hidden top-1 right-1" id="code-copy-done">
+  <i class="h-6 w-6 block">
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M5 12l5 5l10 -10" />
+</svg>
+
+  </i>
+</div><script src="/code-copy.js"></script>
+
 
 
 
