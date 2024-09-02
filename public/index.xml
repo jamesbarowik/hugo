@@ -7,15 +7,8 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>James Barowik</copyright>
-    <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Brandon Medical</title>
-      <link>http://localhost:1313/brandon-medical/</link>
-      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/brandon-medical/</guid>
-      <description>Intro: As part of the Digital T Level you are required to complete a 45 day work experience/placement at a selected work experience that was provided by the teaching staff at UTC. To make the placement as realistic and valuable as possible we&amp;rsquo;re required to create a CV and a Cover Letter to introduce ourselves to the companies and show them about ourselves.&#xA;Once the CV and Cover Letter were send over to the employers there was a couple of weeks where they spent checking over and then they selected who they wanted to interview, they contacted us and then we organised a interview date, this was to make sure that we were both available</description>
-    </item>
     <item>
       <title>Raspberry Pi Bash Project</title>
       <link>http://localhost:1313/rpi5-bash/</link>
