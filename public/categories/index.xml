@@ -2,81 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Portfolio</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://barowik-portfolio.netlify.app/categories/</link>
     <description>Recent content in Categories on Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>James Barowik</copyright>
     <lastBuildDate>Mon, 02 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://barowik-portfolio.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automation</title>
-      <link>http://localhost:1313/categories/automation/</link>
+      <link>https://barowik-portfolio.netlify.app/categories/automation/</link>
       <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/automation/</guid>
+      <guid>https://barowik-portfolio.netlify.app/categories/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/categories/linux/</link>
+      <link>https://barowik-portfolio.netlify.app/categories/linux/</link>
       <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/linux/</guid>
+      <guid>https://barowik-portfolio.netlify.app/categories/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Raspberry Pi 5</title>
-      <link>http://localhost:1313/categories/raspberry-pi-5/</link>
+      <link>https://barowik-portfolio.netlify.app/categories/raspberry-pi-5/</link>
       <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/raspberry-pi-5/</guid>
+      <guid>https://barowik-portfolio.netlify.app/categories/raspberry-pi-5/</guid>
       <description></description>
     </item>
     <item>
       <title>Cisco</title>
-      <link>http://localhost:1313/categories/cisco/</link>
+      <link>https://barowik-portfolio.netlify.app/categories/cisco/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/cisco/</guid>
+      <guid>https://barowik-portfolio.netlify.app/categories/cisco/</guid>
       <description></description>
     </item>
     <item>
       <title>Networking</title>
-      <link>http://localhost:1313/categories/networking/</link>
+      <link>https://barowik-portfolio.netlify.app/categories/networking/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/networking/</guid>
+      <guid>https://barowik-portfolio.netlify.app/categories/networking/</guid>
       <description></description>
     </item>
     <item>
       <title>Work Experience</title>
-      <link>http://localhost:1313/categories/work-experience/</link>
+      <link>https://barowik-portfolio.netlify.app/categories/work-experience/</link>
       <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/work-experience/</guid>
+      <guid>https://barowik-portfolio.netlify.app/categories/work-experience/</guid>
       <description></description>
     </item>
     <item>
       <title>KVM</title>
-      <link>http://localhost:1313/categories/kvm/</link>
+      <link>https://barowik-portfolio.netlify.app/categories/kvm/</link>
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/kvm/</guid>
+      <guid>https://barowik-portfolio.netlify.app/categories/kvm/</guid>
       <description></description>
     </item>
     <item>
       <title>Servers</title>
-      <link>http://localhost:1313/categories/servers/</link>
+      <link>https://barowik-portfolio.netlify.app/categories/servers/</link>
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/servers/</guid>
+      <guid>https://barowik-portfolio.netlify.app/categories/servers/</guid>
       <description></description>
     </item>
     <item>
       <title>Virtual Machines</title>
-      <link>http://localhost:1313/categories/virtual-machines/</link>
+      <link>https://barowik-portfolio.netlify.app/categories/virtual-machines/</link>
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/virtual-machines/</guid>
+      <guid>https://barowik-portfolio.netlify.app/categories/virtual-machines/</guid>
       <description></description>
     </item>
     <item>
       <title>TrueNAS</title>
-      <link>http://localhost:1313/categories/truenas/</link>
+      <link>https://barowik-portfolio.netlify.app/categories/truenas/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/truenas/</guid>
+      <guid>https://barowik-portfolio.netlify.app/categories/truenas/</guid>
       <description></description>
     </item>
   </channel>

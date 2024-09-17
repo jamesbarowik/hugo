@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Work Experience on Portfolio</title>
-    <link>http://localhost:1313/categories/work-experience/</link>
+    <link>https://barowik-portfolio.netlify.app/categories/work-experience/</link>
     <description>Recent content in Work Experience on Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>James Barowik</copyright>
     <lastBuildDate>Sun, 05 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/work-experience/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://barowik-portfolio.netlify.app/categories/work-experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Smartsearch Game</title>
-      <link>http://localhost:1313/smartsearch/</link>
+      <link>https://barowik-portfolio.netlify.app/smartsearch/</link>
       <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/smartsearch/</guid>
+      <guid>https://barowik-portfolio.netlify.app/smartsearch/</guid>
       <description>Introduction: Smartsearch approached the UTC with an idea that they wanted to make a game to showcase there company at events. We initial met with them in person and spoke with Dan that was our a lead contact at Smartsearch and the team. We also met with David who is one of the software developers at SmartSearch he assisted along the way with more of the team management to ensure that we were on the right tracks and that we made a viable product at the end that could be used to bring people to the SmartSearch stand and get them interetsed.</description>
     </item>
     <item>
       <title>Hundo Work Experience</title>
-      <link>http://localhost:1313/hundo/</link>
+      <link>https://barowik-portfolio.netlify.app/hundo/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hundo/</guid>
+      <guid>https://barowik-portfolio.netlify.app/hundo/</guid>
       <description>Introduction: As part of the Digital T-Level we are required to complete a minmum of 45 days work experience. For this project we worked with Leeds City Council and Hundo&#xA;Hundo&amp;rsquo;s project was to provide digital work experience for Digital Students such as our selfs. So it made for a perfect opportunity to work and gain connections with external companies as well as completing 10 of our 45 days&#xA;The Brief: Over the course of the next 5 weeks, you will work with hundo to design, build and promote a product for Leeds City Council.</description>
     </item>
   </channel>
