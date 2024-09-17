@@ -31,7 +31,7 @@ jobs:
       id: build_step  # <<for outputs>>
       with:
         source_branch: 'main'
-        release_branch: 'build'
+        release_branch: 'ga_build'
         # submodule_release_branch: 'subbed' <<only provide if you are publishing to directory with git submodule>>
         # full_rebuild: true
         # hugo_publish_directory: 'documents'   <<publish to another directory if needed>>
