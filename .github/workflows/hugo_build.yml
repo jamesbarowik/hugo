@@ -1,7 +1,9 @@
+name: Hugo Deploy
+
 on:
-  schedule:
-    - cron:  '0 7 * * 1,4'
-    # scheduled at 07:00 every Monday and Thursday
+  # schedule:
+  #   - cron:  '0 7 * * 1,4'
+  #   # scheduled at 07:00 every Monday and Thursday
   workflow_dispatch:
     # to run manual builds
 
