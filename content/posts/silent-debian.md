@@ -42,6 +42,10 @@ After checking out other Linux Toolbox Repo's main the [ChrisTitusTech LinUtil R
 curl -fsSL https://raw.githubusercontent.com/SilentSmeary/silent-debian/main/setup.sh | sh
 ```
 
+```bash
+curl -fsSL https://raw.githubusercontent.com/SilentSmeary/silent-debian/main/setup-dev.sh | sh
+```
+
 ## Other:
 As part of learning linux I also found that Chris Titus had made a fully automated script for installing a good looking and useful terminal so in the README.md my repo I have also linked that with credits and given instructions on how to use this
 
