@@ -22,6 +22,8 @@ jobs:
 
     - name: Commit and Push Changes
       run: |
+        git config --global user.email "barowikajames@gmail.com"
+        git config --global user.name "SilentSmeary"
         git add .
         git commit -m "Build Hugo site and update static files"
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
