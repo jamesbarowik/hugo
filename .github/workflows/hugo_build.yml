@@ -15,14 +15,15 @@ jobs:
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: 'latest'
+        extended: true
 
     - name: Build the Hugo Site
       run: hugo --minify
 
     - name: Commit and Push Changes
       run: |
-        git config --global user.email "github-actions@github.com"
-        git config --global user.name "GitHub Actions"
+        git config --global user.email "barowikajames@gmail.com"
+        git config --global user.name "SilentSmeary"
         git add .
         git commit -m "Build Hugo site and update static files"
         git push origin main
