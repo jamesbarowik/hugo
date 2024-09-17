@@ -1,6 +1,6 @@
 # Hugo Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8fdbcf47-c74f-4939-932b-63469eb28ee2/deploy-status)](https://app.netlify.com/sites/barowik-portfolio/deploys)
+[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/SamKirkland/FTP-Deploy-Action)
 
 ## Install hugo
 ```
