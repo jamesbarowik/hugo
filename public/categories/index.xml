@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>James Barowik</copyright>
-    <lastBuildDate>Mon, 02 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://barowik-portfolio.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Work Experience</title>
+      <link>https://barowik-portfolio.netlify.app/categories/work-experience/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://barowik-portfolio.netlify.app/categories/work-experience/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Automation</title>
       <link>https://barowik-portfolio.netlify.app/categories/automation/</link>
@@ -42,13 +49,6 @@
       <link>https://barowik-portfolio.netlify.app/categories/networking/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://barowik-portfolio.netlify.app/categories/networking/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Work Experience</title>
-      <link>https://barowik-portfolio.netlify.app/categories/work-experience/</link>
-      <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://barowik-portfolio.netlify.app/categories/work-experience/</guid>
       <description></description>
     </item>
     <item>
