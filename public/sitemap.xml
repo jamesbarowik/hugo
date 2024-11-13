@@ -3,24 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://barowik-portfolio.netlify.app/series/2024/</loc>
-    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://barowik-portfolio.netlify.app/brandon-medical/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://barowik-portfolio.netlify.app/categories/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://barowik-portfolio.netlify.app/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://barowik-portfolio.netlify.app/posts/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://barowik-portfolio.netlify.app/series/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://barowik-portfolio.netlify.app/categories/work-experience/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://barowik-portfolio.netlify.app/categories/automation/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://barowik-portfolio.netlify.app/categories/</loc>
-    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://barowik-portfolio.netlify.app/categories/linux/</loc>
-    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://barowik-portfolio.netlify.app/</loc>
-    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://barowik-portfolio.netlify.app/posts/</loc>
-    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://barowik-portfolio.netlify.app/series/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://barowik-portfolio.netlify.app/silent-debian/</loc>
@@ -42,9 +48,6 @@
     <lastmod>2024-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://barowik-portfolio.netlify.app/smartsearch/</loc>
-    <lastmod>2024-05-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://barowik-portfolio.netlify.app/categories/work-experience/</loc>
     <lastmod>2024-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://barowik-portfolio.netlify.app/categories/kvm/</loc>
