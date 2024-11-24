@@ -4,7 +4,7 @@ author = "James Barowik"
 copyright = "James Barowik"
 paginate = 10
 languageCode = "en"
-theme = "tailwind"
+theme = "kayal"
 
 [params]
   # dir name of your blog content (default is `content/posts`).
