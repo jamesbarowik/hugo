@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Raspberry Pi 5 on Portfolio</title>
     <link>https://barowik-portfolio.netlify.app/categories/raspberry-pi-5/</link>
     <description>Recent content in Raspberry Pi 5 on Portfolio</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.139.0</generator>
     <language>en</language>
     <copyright>James Barowik</copyright>
     <lastBuildDate>Sun, 28 Jul 2024 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,8 @@
       <link>https://barowik-portfolio.netlify.app/rpi5-bash/</link>
       <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://barowik-portfolio.netlify.app/rpi5-bash/</guid>
-      <description>Introduction: To further my career and learning, and the installation of the Raspberry Pi Cluster. I looked into creating a bash script, that would automate the process as much as possible to reduce the amount of time that it took to setup and install all of the machines. Something that I would like to look into in the future is the addition of a deployment server that install the OS automatically across the network of machines.</description>
+      <description>Introduction:To further my career and learning, and the installation of the Raspberry Pi Cluster. I looked into creating a bash script, that would automate the process as much as possible to reduce the amount of time that it took to setup and install all of the machines. Something that I would like to look into in the future is the addition of a deployment server that install the OS automatically across the network of machines. I currently have no idea how I’d go about doing that so using a bash based automated process.
+</description>
     </item>
   </channel>
 </rss>

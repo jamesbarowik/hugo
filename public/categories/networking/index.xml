@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Networking on Portfolio</title>
     <link>https://barowik-portfolio.netlify.app/categories/networking/</link>
     <description>Recent content in Networking on Portfolio</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.139.0</generator>
     <language>en</language>
     <copyright>James Barowik</copyright>
     <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate>
@@ -14,14 +14,16 @@
       <link>https://barowik-portfolio.netlify.app/router/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://barowik-portfolio.netlify.app/router/</guid>
-      <description>Pre-Information: The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address. There are 0 VLAN&amp;rsquo;s currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.</description>
+      <description>Pre-Information:The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address. There are 0 VLAN&rsquo;s currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.
+</description>
     </item>
     <item>
       <title>Proxmox</title>
       <link>https://barowik-portfolio.netlify.app/proxmox/</link>
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://barowik-portfolio.netlify.app/proxmox/</guid>
-      <description>Introduction: Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions that ment I was able to learn more with the hardware and I stumbled across Proxmox.&#xA;Proxmox is a free and open source solution to virutalisation that allows for the creation of virtual machines using any operating system.</description>
+      <description>Introduction:Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions that ment I was able to learn more with the hardware and I stumbled across Proxmox.
+</description>
     </item>
   </channel>
 </rss>

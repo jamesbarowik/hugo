@@ -1,100 +1,98 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://barowik-portfolio.netlify.app/series/2024/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/brandon-medical/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/categories/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/posts/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/series/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/categories/work-experience/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/categories/automation/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/categories/linux/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/silent-debian/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/categories/raspberry-pi-5/</loc>
     <lastmod>2024-07-28T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/rpi5-bash/</loc>
     <lastmod>2024-07-28T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/categories/cisco/</loc>
     <lastmod>2024-06-24T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/router/</loc>
     <lastmod>2024-06-24T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/categories/networking/</loc>
     <lastmod>2024-06-24T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/smartsearch/</loc>
     <lastmod>2024-05-05T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/categories/kvm/</loc>
     <lastmod>2024-04-17T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/proxmox/</loc>
     <lastmod>2024-04-17T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/categories/servers/</loc>
     <lastmod>2024-04-17T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/categories/virtual-machines/</loc>
     <lastmod>2024-04-17T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/hundo/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/categories/truenas/</loc>
     <lastmod>2024-01-20T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/truenas/</loc>
     <lastmod>2024-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://barowik-portfolio.netlify.app/search/</loc>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://barowik-portfolio.netlify.app/search/_index.es/</loc>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://barowik-portfolio.netlify.app/search/_index.fr/</loc>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://barowik-portfolio.netlify.app/search/_index.hi/</loc>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://barowik-portfolio.netlify.app/search/_index.jp/</loc>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://barowik-portfolio.netlify.app/search/_index.pl/</loc>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://barowik-portfolio.netlify.app/search/_index.ru/</loc>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://barowik-portfolio.netlify.app/search/_index.zh-cn/</loc>
-    <priority>0.1</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://barowik-portfolio.netlify.app/tags/</loc>
   </url>
 </urlset>

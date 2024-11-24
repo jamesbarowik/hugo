@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>KVM on Portfolio</title>
     <link>https://barowik-portfolio.netlify.app/categories/kvm/</link>
     <description>Recent content in KVM on Portfolio</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.139.0</generator>
     <language>en</language>
     <copyright>James Barowik</copyright>
     <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,8 @@
       <link>https://barowik-portfolio.netlify.app/proxmox/</link>
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://barowik-portfolio.netlify.app/proxmox/</guid>
-      <description>Introduction: Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions that ment I was able to learn more with the hardware and I stumbled across Proxmox.&#xA;Proxmox is a free and open source solution to virutalisation that allows for the creation of virtual machines using any operating system.</description>
+      <description>Introduction:Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions that ment I was able to learn more with the hardware and I stumbled across Proxmox.
+</description>
     </item>
   </channel>
 </rss>
