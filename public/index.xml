@@ -15,5 +15,19 @@
       <guid>//localhost:1313/posts/brandon-medical/</guid>
       <description>Post about Brandon Medical Work Placement</description>
     </item>
+    <item>
+      <title>Silent Debian</title>
+      <link>//localhost:1313/posts/silent-debian/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/silent-debian/</guid>
+      <description>Silent Debain is a bash script that I created the script whilst learning linux to make the installation process quicker</description>
+    </item>
+    <item>
+      <title>Raspberry Pi 5 Bash Script</title>
+      <link>//localhost:1313/posts/raspberry-pi-5/</link>
+      <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/raspberry-pi-5/</guid>
+      <description>Bash script that I created to automate the installation of the Rasbperry Pi 5 machines</description>
+    </item>
   </channel>
 </rss>
