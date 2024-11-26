@@ -6,14 +6,21 @@
     <description>Recent content on James&#39; Portfolio</description>
     <generator>Hugo -- 0.139.0</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Jul 2024 22:37:14 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Getting Started :rocket:</title>
+      <title>Brandon Medical Work Experience</title>
+      <link>//localhost:1313/posts/brandon-medical/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/brandon-medical/</guid>
+      <description>Post about Brandon Medical Work Placement</description>
+    </item>
+    <item>
+      <title>Silent Debian</title>
       <link>//localhost:1313/posts/getting-started/</link>
-      <pubDate>Sat, 20 Jul 2024 22:37:14 +0530</pubDate>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/posts/getting-started/</guid>
-      <description>This page contains installation instructions for both Hugo and Kayal, as well as instructions for future updates.</description>
+      <description>Silent Debain is a bash script that I created the script whilst learning linux to make the installation process quicker</description>
     </item>
   </channel>
 </rss>
