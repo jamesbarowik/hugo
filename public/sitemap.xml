@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/posts/getting-started/</loc>
+    <loc>/posts/getting-started/</loc>
     <lastmod>2024-07-20T22:37:14+05:30</lastmod>
   </url>
   <url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2024-07-21T17:40:15+05:30</lastmod>
   </url>
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2024-07-20T22:37:45+05:30</lastmod>
   </url>
   <url>
-    <loc>//localhost:1313/tags/hugo/</loc>
+    <loc>/tags/hugo/</loc>
     <lastmod>2024-07-20T22:37:14+05:30</lastmod>
   </url>
   <url>
-    <loc>//localhost:1313/tags/install/</loc>
+    <loc>/tags/install/</loc>
     <lastmod>2024-07-20T22:37:14+05:30</lastmod>
   </url>
   <url>
-    <loc>//localhost:1313/tags/kayal/</loc>
+    <loc>/tags/kayal/</loc>
     <lastmod>2024-07-20T22:37:14+05:30</lastmod>
   </url>
   <url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2024-07-20T22:37:14+05:30</lastmod>
   </url>
   <url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
   </url>
 </urlset>
