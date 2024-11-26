@@ -29,5 +29,12 @@
       <guid>//localhost:1313/posts/raspberry-pi-5/</guid>
       <description>Bash script that I created to automate the installation of the Rasbperry Pi 5 machines</description>
     </item>
+    <item>
+      <title>Smartsearch Game</title>
+      <link>//localhost:1313/posts/smartsearch/</link>
+      <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/smartsearch/</guid>
+      <description>Game we created for SmartSearch for marketing uses</description>
+    </item>
   </channel>
 </rss>
