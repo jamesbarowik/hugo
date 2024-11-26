@@ -1,34 +1,74 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/posts/getting-started/</loc>
-    <lastmod>2024-07-20T22:37:14+05:30</lastmod>
+    <loc>/posts/brandon-medical/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>//localhost:1313/posts/</loc>
-    <lastmod>2024-07-21T17:40:15+05:30</lastmod>
+    <loc>/posts/silent-debian/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>/posts/raspberry-pi-5/</loc>
+    <lastmod>2024-07-28T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/posts/cisco-1942/</loc>
+    <lastmod>2024-05-05T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/posts/smartsearch/</loc>
+    <lastmod>2024-05-05T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/tags/t-level-digital/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/tags/work-experience/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/tags/automated/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/tags/bash-script/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/tags/debian/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/tags/ubuntu/</loc>
+    <lastmod>2024-07-28T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/</loc>
     <lastmod>2024-07-20T22:37:45+05:30</lastmod>
   </url>
   <url>
-    <loc>//localhost:1313/tags/hugo/</loc>
-    <lastmod>2024-07-20T22:37:14+05:30</lastmod>
+    <loc>/tags/cisco/</loc>
+    <lastmod>2024-05-05T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>//localhost:1313/tags/install/</loc>
-    <lastmod>2024-07-20T22:37:14+05:30</lastmod>
+    <loc>/tags/networking/</loc>
+    <lastmod>2024-05-05T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>//localhost:1313/tags/kayal/</loc>
-    <lastmod>2024-07-20T22:37:14+05:30</lastmod>
-  </url>
-  <url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-07-20T22:37:14+05:30</lastmod>
-  </url>
-  <url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
   </url>
 </urlset>
