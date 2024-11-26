@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Portfolio</title>
-    <link>https://barowik-portfolio.netlify.app/tags/</link>
-    <description>Recent content in Tags on Portfolio</description>
+    <title>Tags on James&#39; Portfolio</title>
+    <link>//localhost:1313/tags/</link>
+    <description>Recent content in Tags on James&#39; Portfolio</description>
     <generator>Hugo -- 0.139.0</generator>
     <language>en</language>
-    <copyright>James Barowik</copyright>
-    <atom:link href="https://barowik-portfolio.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jul 2024 22:37:14 +0530</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>//localhost:1313/tags/hugo/</link>
+      <pubDate>Sat, 20 Jul 2024 22:37:14 +0530</pubDate>
+      <guid>//localhost:1313/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Install</title>
+      <link>//localhost:1313/tags/install/</link>
+      <pubDate>Sat, 20 Jul 2024 22:37:14 +0530</pubDate>
+      <guid>//localhost:1313/tags/install/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kayal</title>
+      <link>//localhost:1313/tags/kayal/</link>
+      <pubDate>Sat, 20 Jul 2024 22:37:14 +0530</pubDate>
+      <guid>//localhost:1313/tags/kayal/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

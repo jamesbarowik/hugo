@@ -1,21 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Cisco on Portfolio</title>
-    <link>https://barowik-portfolio.netlify.app/categories/cisco/</link>
-    <description>Recent content in Cisco on Portfolio</description>
-    <generator>Hugo -- 0.139.0</generator>
-    <language>en</language>
-    <copyright>James Barowik</copyright>
-    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://barowik-portfolio.netlify.app/categories/cisco/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cisco Router</title>
-      <link>https://barowik-portfolio.netlify.app/router/</link>
-      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://barowik-portfolio.netlify.app/router/</guid>
-      <description>Pre-Information:The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address. There are 0 VLAN&rsquo;s currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.
-</description>
-    </item>
-  </channel>
-</rss>

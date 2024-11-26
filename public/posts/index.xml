@@ -1,77 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Portfolio</title>
-    <link>https://barowik-portfolio.netlify.app/posts/</link>
-    <description>Recent content in Posts on Portfolio</description>
+    <title>Docs on James&#39; Portfolio</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Docs on James&#39; Portfolio</description>
     <generator>Hugo -- 0.139.0</generator>
     <language>en</language>
-    <copyright>James Barowik</copyright>
-    <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://barowik-portfolio.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jul 2024 22:37:14 +0530</lastBuildDate>
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Brandon Medical Work Experience</title>
-      <link>https://barowik-portfolio.netlify.app/brandon-medical/</link>
-      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://barowik-portfolio.netlify.app/brandon-medical/</guid>
-      <description>Introduction:Over the last 3 months, I have been fortunate enough to have completed 45 days work experience required to complete the Digital T-Level at UTC Leeds, the work placement is a key part of the Digital T-Level, well the T-Level in general to ensure that you are able to gain experience in the sector that you are planning on working in.
-</description>
-    </item>
-    <item>
-      <title>Silent Debian Script</title>
-      <link>https://barowik-portfolio.netlify.app/silent-debian/</link>
-      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://barowik-portfolio.netlify.app/silent-debian/</guid>
-      <description>Introduction:I had wanted to learn linux for the longest time but never really got the opportunity as in a learning situation Windows was the operating system that was used, then same for the work placement. Which ment I got really comfortable using the Windows operating system.
-</description>
-    </item>
-    <item>
-      <title>Raspberry Pi Bash Project</title>
-      <link>https://barowik-portfolio.netlify.app/rpi5-bash/</link>
-      <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://barowik-portfolio.netlify.app/rpi5-bash/</guid>
-      <description>Introduction:To further my career and learning, and the installation of the Raspberry Pi Cluster. I looked into creating a bash script, that would automate the process as much as possible to reduce the amount of time that it took to setup and install all of the machines. Something that I would like to look into in the future is the addition of a deployment server that install the OS automatically across the network of machines. I currently have no idea how I’d go about doing that so using a bash based automated process.
-</description>
-    </item>
-    <item>
-      <title>Cisco Router</title>
-      <link>https://barowik-portfolio.netlify.app/router/</link>
-      <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://barowik-portfolio.netlify.app/router/</guid>
-      <description>Pre-Information:The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address. There are 0 VLAN&rsquo;s currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.
-</description>
-    </item>
-    <item>
-      <title>Smartsearch Game</title>
-      <link>https://barowik-portfolio.netlify.app/smartsearch/</link>
-      <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://barowik-portfolio.netlify.app/smartsearch/</guid>
-      <description>Introduction:Smartsearch approached the UTC with an idea that they wanted to make a game to showcase there company at events. We initial met with them in person and spoke with Dan that was our a lead contact at Smartsearch and the team. We also met with David who is one of the software developers at SmartSearch he assisted along the way with more of the team management to ensure that we were on the right tracks and that we made a viable product at the end that could be used to bring people to the SmartSearch stand and get them interetsed.
-</description>
-    </item>
-    <item>
-      <title>Proxmox</title>
-      <link>https://barowik-portfolio.netlify.app/proxmox/</link>
-      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://barowik-portfolio.netlify.app/proxmox/</guid>
-      <description>Introduction:Firstly, we installed Windows Server 2019 on the bare metal. As I wanted to learn more skills related to infrastructure it was essential that I could learn linux skills as well as windows skills. So, I spent a few days looking around at other solutions that ment I was able to learn more with the hardware and I stumbled across Proxmox.
-</description>
-    </item>
-    <item>
-      <title>Hundo Work Experience</title>
-      <link>https://barowik-portfolio.netlify.app/hundo/</link>
-      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://barowik-portfolio.netlify.app/hundo/</guid>
-      <description>Introduction:As part of the Digital T-Level we are required to complete a minmum of 45 days work experience. For this project we worked with Leeds City Council and Hundo
-</description>
-    </item>
-    <item>
-      <title>TrueNAS Scale</title>
-      <link>https://barowik-portfolio.netlify.app/truenas/</link>
-      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://barowik-portfolio.netlify.app/truenas/</guid>
-      <description>Introduction:We needed a safe fast and secure solution for storage. We need a solution that supported both Windows Shares (SMB) and Linux Shares. With the requirements that we need and the hardware that we have the search began. For the OS that was compatible with our older hardware and that worked with never drives that were harvested from our old college machines that were no longer in use.
-</description>
+      <title>Getting Started :rocket:</title>
+      <link>//localhost:1313/posts/getting-started/</link>
+      <pubDate>Sat, 20 Jul 2024 22:37:14 +0530</pubDate>
+      <guid>//localhost:1313/posts/getting-started/</guid>
+      <description>This page contains installation instructions for both Hugo and Kayal, as well as instructions for future updates.</description>
     </item>
   </channel>
 </rss>

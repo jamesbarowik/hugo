@@ -1,21 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>TrueNAS on Portfolio</title>
-    <link>https://barowik-portfolio.netlify.app/categories/truenas/</link>
-    <description>Recent content in TrueNAS on Portfolio</description>
-    <generator>Hugo -- 0.139.0</generator>
-    <language>en</language>
-    <copyright>James Barowik</copyright>
-    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://barowik-portfolio.netlify.app/categories/truenas/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>TrueNAS Scale</title>
-      <link>https://barowik-portfolio.netlify.app/truenas/</link>
-      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://barowik-portfolio.netlify.app/truenas/</guid>
-      <description>Introduction:We needed a safe fast and secure solution for storage. We need a solution that supported both Windows Shares (SMB) and Linux Shares. With the requirements that we need and the hardware that we have the search began. For the OS that was compatible with our older hardware and that worked with never drives that were harvested from our old college machines that were no longer in use.
-</description>
-    </item>
-  </channel>
-</rss>

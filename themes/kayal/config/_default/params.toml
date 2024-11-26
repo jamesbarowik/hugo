@@ -1,12 +1,13 @@
 # -- Theme Options --
-# These options control how the theme functions and allow you to customize the display of your website.
+# These options control how the theme functions and allow you to
+# customise the display of your website.
 # Refer to the theme docs for more details about each of these parameters.
 # https://mnjm.github.io/kayal/docs/configuration/#theme-parameters
 
 # [Optional] Path to the site logo image relative to assets/ folder. Displayed before the Site Title in the header. Minimum size: 64x64px.
-logo = "//images/logo.png"
+logo = ""
 # Site description.
-description = "You can find the source and config files of this site in here ."
+description = "This website is my Personal Portfolio to show projects that I've worked on both at college and in my free time."
 # [Optional] Copyright owner name.
 copyright = "James Barowik"
 # Whether to optimize images per view port.
@@ -28,7 +29,6 @@ showHeadingAnchors = true
 # Whether to enable search. Needs JSON output for this to work.
 enableSearch = false
 
-# Site search engine verification tags.
 # [verification]
 # google = ""
 # bing = ""
@@ -45,14 +45,25 @@ showRecentLabel = "Recent Posts"
 showRecentItems = 4
 # Whether to display a "Show more" link at the end of recent section that directs to `showMoreDest`.
 showMore = true
-showMoreDest = "/posts"
+showMoreDest = "posts"
 [homepage.profile]
 # [Optional] Displayed at the top of your homepage.
-headline = "👋 Welcome to my site"
+headline = "👋 Welcome to my Portfolio"
 # [Optional] Path to the profile image relative to assets/ folder. Minimum size: 200x200px.
-image = "imgs/profile.svg"
+image = "https://github.com/SilentSmeary/hugo/blob/master/images/logo.png?raw=true"
 # Image position.
 where = "right"  # Options: right, left, top
+
+# List template settings
+[list]
+# Whether to group articles by year.
+groupByYear = true
+# Whether to display breadcrumbs
+showBreadcrumbs = true
+# Whether to display pages as a card
+cardView = true
+# Whether to display RSS link
+showRSS = false
 
 # Article settings
 [article]
@@ -75,18 +86,7 @@ openToC = false
 # Check https://mnjm.github.io/kayal/docs/advanced-customization/#comments
 showComments = false
 # Whether to display breadcrumbs
-showBreadcrumbs = false
-
-# List template settings
-[list]
-# Whether to group articles by year.
-groupByYear = false
-# Whether to display breadcrumbs
-showBreadcrumbs = false
-# Whether to display pages as a card
-cardView = true
-# Whether to display RSS link
-showRSS = false
+showBreadcrumbs = true
 
 # Taxonomy settings
 [taxonomy]
@@ -98,26 +98,26 @@ cardView = true
 # Term settings
 [term]
 # Whether to group articles by year.
-groupByYear = false
+groupByYear = true
 # Whether to display breadcrumbs
-showBreadcrumbs = false
+showBreadcrumbs = true
 # Whether to display pages as a card
 cardView = true
 # Whether to display RSS link
 showRSS = false
 
-# Social links
+
 [[social]]
 name = "GitHub"
 icon = "github"
 url = "https://github.com/SilentSmeary"
 
 [[social]]
-name = "Email"
-icon = "email"
-url = "mailto:barowikajames@gmail.com"
-
-[[social]]
 name = "LinkedIn"
 icon = "linkedin"
 url = "https://www.linkedin.com/in/james-barowik/"
+
+[[social]]
+name = "Email"
+icon = "email"
+url = "mailto:barowikajames@gmail.com"
