@@ -2,7 +2,7 @@
 title: 'Brandon Medical Work Experience'
 date: 2024-10-30
 draft: false
-coverImg: ""
+coverImg: "https://github.com/SilentSmeary/hugo/blob/master/images/posts/brandon-medical.png?raw=true"
 weight: 1
 summary: "Post about Brandon Medical Work Placement"
 tags: ["work experience", "T-Level Digital"]

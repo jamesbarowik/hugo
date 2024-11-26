@@ -2,7 +2,7 @@
 title: 'Silent Debian'
 date: 2024-09-02
 draft: false
-coverImg: ""
+coverImg: "https://github.com/SilentSmeary/hugo/blob/master/images/posts/silent-debian.png?raw=true"
 weight: 1
 summary: "Silent Debain is a bash script that I created the script whilst learning linux to make the installation process quicker"
 tags: ["linux", "debian", "automated", "bash script"]

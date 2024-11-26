@@ -15,12 +15,5 @@
       <guid>//localhost:1313/posts/brandon-medical/</guid>
       <description>Post about Brandon Medical Work Placement</description>
     </item>
-    <item>
-      <title>Silent Debian</title>
-      <link>//localhost:1313/posts/getting-started/</link>
-      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/getting-started/</guid>
-      <description>Silent Debain is a bash script that I created the script whilst learning linux to make the installation process quicker</description>
-    </item>
   </channel>
 </rss>
