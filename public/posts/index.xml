@@ -30,6 +30,13 @@
       <description>Bash script that I created to automate the installation of the Rasbperry Pi 5 machines</description>
     </item>
     <item>
+      <title>Cisco Router Configuration</title>
+      <link>//localhost:1313/posts/cisco-1942/</link>
+      <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/cisco-1942/</guid>
+      <description>Cisco 1942 Router Configuration</description>
+    </item>
+    <item>
       <title>Smartsearch Game</title>
       <link>//localhost:1313/posts/smartsearch/</link>
       <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>

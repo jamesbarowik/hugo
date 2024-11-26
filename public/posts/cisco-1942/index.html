@@ -8,16 +8,16 @@
 
   
   
-  <title>Raspberry Pi 5 Bash Script &middot; James&#39; Portfolio</title>
-  <meta name="title" content="Raspberry Pi 5 Bash Script &middot; James&#39; Portfolio" />
+  <title>Cisco Router Configuration &middot; James&#39; Portfolio</title>
+  <meta name="title" content="Cisco Router Configuration &middot; James&#39; Portfolio" />
   
 
   
   
-  <meta name="description" content="Bash script that I created to automate the installation of the Rasbperry Pi 5 machines" />
+  <meta name="description" content="Cisco 1942 Router Configuration" />
   
-  <meta name="keywords" content="linux, ubuntu, automated, bash script, " />
-  <link rel="canonical" href="//localhost:1313/posts/raspberry-pi-5/" />
+  <meta name="keywords" content="Cisco, Networking, " />
+  <link rel="canonical" href="//localhost:1313/posts/cisco-1942/" />
 
   
 
@@ -67,30 +67,28 @@
     <link rel="manifest" href="/site.webmanifest" />
   
 
-  <meta property="og:url" content="//localhost:1313/posts/raspberry-pi-5/">
+  <meta property="og:url" content="//localhost:1313/posts/cisco-1942/">
   <meta property="og:site_name" content="James&#39; Portfolio">
-  <meta property="og:title" content="Raspberry Pi 5 Bash Script">
-  <meta property="og:description" content="Bash script that I created to automate the installation of the Rasbperry Pi 5 machines">
+  <meta property="og:title" content="Cisco Router Configuration">
+  <meta property="og:description" content="Cisco 1942 Router Configuration">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-07-28T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-07-28T00:00:00+00:00">
-    <meta property="article:tag" content="Linux">
-    <meta property="article:tag" content="Ubuntu">
-    <meta property="article:tag" content="Automated">
-    <meta property="article:tag" content="Bash Script">
+    <meta property="article:published_time" content="2024-05-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-05-05T00:00:00+00:00">
+    <meta property="article:tag" content="Cisco">
+    <meta property="article:tag" content="Networking">
 
   
-    <meta property="og:image" content="https://github.com/SilentSmeary/hugo/blob/master/images/posts/raspberry-pi-5.png?raw=true" />
+    <meta property="og:image" content="https://github.com/SilentSmeary/hugo/blob/master/images/posts/cisco-1942.png?raw=true" />
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Raspberry Pi 5 Bash Script">
-  <meta name="twitter:description" content="Bash script that I created to automate the installation of the Rasbperry Pi 5 machines">
+  <meta name="twitter:title" content="Cisco Router Configuration">
+  <meta name="twitter:description" content="Cisco 1942 Router Configuration">
 
   
-    <meta name="twitter:image" content="https://github.com/SilentSmeary/hugo/blob/master/images/posts/raspberry-pi-5.png?raw=true" />
+    <meta name="twitter:image" content="https://github.com/SilentSmeary/hugo/blob/master/images/posts/cisco-1942.png?raw=true" />
   
 
   
@@ -291,7 +289,7 @@
 
 
 
-  <img loading="lazy" src="https://github.com/SilentSmeary/hugo/blob/master/images/posts/raspberry-pi-5.png?raw=true" alt="Cover Image" />
+  <img loading="lazy" src="https://github.com/SilentSmeary/hugo/blob/master/images/posts/cisco-1942.png?raw=true" alt="Cover Image" />
 
 
 
@@ -320,7 +318,7 @@
 
 
 
-<h1 class="pg-title">Raspberry Pi 5 Bash Script</h1>
+<h1 class="pg-title">Cisco Router Configuration</h1>
 
 
 <div class="meta">
@@ -340,7 +338,7 @@
 
 
 </span>
-  Posted on <time datetime="2024-07-28T00:00:00&#43;00:00">Jul 28, 2024</time>
+  Posted on <time datetime="2024-05-05T00:00:00&#43;00:00">May 5, 2024</time>
   
   
   
@@ -357,7 +355,7 @@
 
 </span>
   
-    4 mins
+    7 mins
   
 
 
@@ -374,13 +372,9 @@
 
  </span>
   
-  <a class="tag" href="/tags/linux/">Linux</a>
+  <a class="tag" href="/tags/cisco/">Cisco</a>
   
-  <a class="tag" href="/tags/ubuntu/">Ubuntu</a>
-  
-  <a class="tag" href="/tags/automated/">Automated</a>
-  
-  <a class="tag" href="/tags/bash-script/">Bash Script</a>
+  <a class="tag" href="/tags/networking/">Networking</a>
   
 </p>
 
@@ -399,23 +393,18 @@
       <div class="toc-innr">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#introduction">Introduction:</a></li>
+    <li><a href="#pre-information">Pre-Information:</a></li>
+    <li><a href="#current-config">Current Config:</a></li>
     <li><a href="#commands">Commands:</a>
       <ul>
-        <li><a href="#apt">apt</a></li>
-        <li><a href="#wget">wget</a></li>
-        <li><a href="#nmcli">nmcli</a></li>
-        <li><a href="#grep">grep</a></li>
-        <li><a href="#dpkg">dpkg</a></li>
+        <li><a href="#mode-control-commands">Mode Control Commands</a></li>
+        <li><a href="#basic-configuration-commands-list">Basic Configuration Commands List</a></li>
+        <li><a href="#troubleshooting-cisco-commands-list">Troubleshooting Cisco Commands List</a></li>
+        <li><a href="#routing-and-vlan-commands">Routing and VLAN Commands</a></li>
+        <li><a href="#dhcp-commands">DHCP Commands</a></li>
+        <li><a href="#security-commands">Security Commands</a></li>
       </ul>
     </li>
-    <li><a href="#file-types">File Types:</a>
-      <ul>
-        <li><a href="#desktop">.desktop</a></li>
-      </ul>
-    </li>
-    <li><a href="#final-script">Final Script:</a></li>
-    <li><a href="#usage">Usage:</a></li>
   </ul>
 </nav>
       </div>
@@ -426,10 +415,10 @@
 
 
 
-<h2 id="introduction">
-  Introduction:
+<h2 id="pre-information">
+  Pre-Information:
   
-  <a hidden class="anchor" href="#introduction">
+  <a hidden class="anchor" href="#pre-information">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
@@ -437,35 +426,118 @@
  </a>
   
 </h2>
-<p>To further my career and learning, and the installation of the Raspberry Pi Cluster. I looked into creating a bash script, that would automate the process as much as possible to reduce the amount of time that it took to setup and install all of the machines. Something that I would like to look into in the future is the addition of a deployment server that install the OS automatically across the network of machines. I currently have no idea how I’d go about doing that so using a bash based automated process.</p>
-<p>I checked around for other examples of bash scripting and bash found similar things to what I was doing, The first time I tried to do this I had the files on a USB Stick which was a lot slower as the file transfer was much slower than the internet speed.</p>
-<p>I made sure that i added a .gitignore to remove and files that weren&rsquo;t required during the running of the script, this is to reduce the size of the repo to increase the cloning speed to setup the initial script and ensure that everything is running correctly.</p>
-<p>I also added the local-downloads folder to ensure that any files that were downloaded or creating during to script running were in the local-downloads folder and were removed after as to reduce machine lag and free space on the drive for the users</p>
-<p><strong>The script firstly remove software;</strong></p>
-<ul>
-<li>QT Transmission</li>
-<li>Remmina</li>
-<li>Gnome Snapshot</li>
-<li>Rythmbox</li>
-</ul>
-<p><strong>The script installs software;</strong></p>
-<ul>
-<li>thonny</li>
-<li>pandas (python library)</li>
-<li>Chromium Browser</li>
-<li>Okular</li>
-<li>Git</li>
-<li>GitHub Desktop</li>
-<li>PhpStorm</li>
-<li>Project Libre</li>
-<li>apache</li>
-<li>php</li>
-<li>sssd-ad</li>
-<li>sssd-tools</li>
-<li>realmd</li>
-<li>adcli</li>
-</ul>
+<p>The code below in the configuration for a Cisco 1921 with a class C Network where the router has been given the IP address 172.16.0.1. This has got a DHCP range of 100 IP address range address.  There are 0 VLAN&rsquo;s currently configured but the plan is to have a VLAN for the servers so that only allowed devices are able to speak with the server. We are also using a Cisco switch that is running POE for our AP device.</p>
 
+<h2 id="current-config">
+  Current Config:
+  
+  <a hidden class="anchor" href="#current-config">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+
+ </a>
+  
+</h2>
+<pre tabindex="0"><code>Current configuration : 1583 bytes
+!
+version 15.2
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Router
+!
+boot-start-marker
+boot-end-marker
+!
+!
+enable secret 4 56jyXs.RSLFQFX5Ebzwqm0eXTwHAtDmINcDLgnOqA16
+!
+no aaa new-model
+memory-size iomem 5
+!
+ip cef
+!
+!
+!
+ip dhcp excluded-address 172.16.0.1 172.16.0.99
+ip dhcp excluded-address 172.16.0.200 172.16.0.254
+!
+ip dhcp pool pool1
+ network 172.16.0.0 255.255.0.0
+ default-router 172.16.0.1
+ dns-server 172.16.0.4 8.8.8.8
+!
+!
+!
+no ipv6 cef
+multilink bundle-name authenticated
+!
+!
+!
+license udi pid CISCO1921/K9 sn FCZ1809C3MT
+!
+!
+!
+!
+!
+!
+!
+!
+interface Embedded-Service-Engine0/0
+ no ip address
+ shutdown
+!
+interface GigabitEthernet0/0
+ ip address dhcp
+ ip nat outside
+ ip virtual-reassembly in
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1
+ ip address 172.16.0.1 255.255.0.0
+ ip nat inside
+ ip virtual-reassembly in
+ duplex auto
+ speed auto
+!
+ip forward-protocol nd
+!
+no ip http server
+no ip http secure-server
+!
+ip nat pool Internet 192.168.9.20 192.168.9.20 netmask 255.255.255.0
+ip nat inside source list 100 pool Internet overload
+ip route 0.0.0.0 0.0.0.0 192.168.9.1
+!
+access-list 100 deny   ip 172.16.0.0 0.0.255.255 172.16.0.0 0.0.255.255
+access-list 100 permit ip 172.16.0.0 0.0.255.255 any
+!
+!
+!
+control-plane
+!
+!
+!
+line con 0
+line aux 0
+line 2
+ no activation-character
+ no exec
+ transport preferred none
+ transport output pad telnet rlogin lapb-ta mop udptn v120 ssh
+ stopbits 1
+line vty 0 4
+ password telnet
+ login
+ transport input telnet
+!
+scheduler allocate 20000 1000
+!
+end
+</code></pre>
 <h2 id="commands">
   Commands:
   
@@ -477,12 +549,11 @@
  </a>
   
 </h2>
-<p>These are a few of the basic commands that i used with a brief notes about what they do, from a very basic understanding</p>
 
-<h3 id="apt">
-  apt
+<h3 id="mode-control-commands">
+  Mode Control Commands
   
-  <a hidden class="anchor" href="#apt">
+  <a hidden class="anchor" href="#mode-control-commands">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
@@ -490,14 +561,33 @@
  </a>
   
 </h3>
-<pre tabindex="0"><code>sudo apt update
-sudo apt upgrade
-</code></pre><p>Basic package manager for debian based systems, I opted to change this out for an expanded and quicker manager called nala that can be up to 16x faster then APT.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Command</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Enable</td>
+          <td>Moves a user from user exec mode into Privileged EXEC mode. Privileged exec mode is indicated by the <code>#</code> symbol in the command prompt.</td>
+      </tr>
+      <tr>
+          <td>configure terminal</td>
+          <td>Logs the user into Global Configuration mode</td>
+      </tr>
+      <tr>
+          <td>interface fastethernet/number</td>
+          <td>Enters interface configuration mode for the specified fast ethernet interface</td>
+      </tr>
+  </tbody>
+</table>
 
-<h3 id="wget">
-  wget
+<h3 id="basic-configuration-commands-list">
+  Basic Configuration Commands List
   
-  <a hidden class="anchor" href="#wget">
+  <a hidden class="anchor" href="#basic-configuration-commands-list">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
@@ -505,13 +595,81 @@ sudo apt upgrade
  </a>
   
 </h3>
-<pre tabindex="0"><code>sudo wget &#34;https://github.com/fastfetch-cli/fastfetch/releases/download/2.18.1/fastfetch-linux-amd64.deb&#34;
-</code></pre><p>The wget command is used to download a file from a web server and download it to the local drive, this is much quicker than using the USB stick to download the files.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Command</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>reload</td>
+          <td>Reboots the Cisco switch or router</td>
+      </tr>
+      <tr>
+          <td>hostname name</td>
+          <td>Sets a host name to the current Cisco network device</td>
+      </tr>
+      <tr>
+          <td>copy from-location to-location</td>
+          <td>Copies files from one file location to another</td>
+      </tr>
+      <tr>
+          <td>copy running-config startup-config</td>
+          <td>Replaces the startup config with the active config when the Cisco network device initializes</td>
+      </tr>
+      <tr>
+          <td>copy startup-config running-config</td>
+          <td>Merges the startup config with the currently active config in RAM</td>
+      </tr>
+      <tr>
+          <td>write erase / erase startup-config</td>
+          <td>Deletes the startup config</td>
+      </tr>
+      <tr>
+          <td>ip address ip-address mask</td>
+          <td>Assigns the specified IP address and subnet mask</td>
+      </tr>
+      <tr>
+          <td>shutdown / no shutdown</td>
+          <td>Shuts the interface down (<code>shutdown</code>) or brings it up (<code>no shutdown</code>)</td>
+      </tr>
+      <tr>
+          <td>ip default-gateway ip_address</td>
+          <td>Sets the default gateway on the Cisco device</td>
+      </tr>
+      <tr>
+          <td>show running-config</td>
+          <td>Displays the current configuration of the device</td>
+      </tr>
+      <tr>
+          <td>show startup-config</td>
+          <td>Displays the saved configuration stored in the device’s NVRAM, which will be loaded when the device starts up</td>
+      </tr>
+      <tr>
+          <td>description string</td>
+          <td>Assigns the specified description to an interface</td>
+      </tr>
+      <tr>
+          <td>show running-config interface interface slot/number</td>
+          <td>Displays the running configuration for the specified interface</td>
+      </tr>
+      <tr>
+          <td>show ip interface [type number]</td>
+          <td>Displays the status of a network interface as well as a detailed listing of its IP configurations and related characteristics.</td>
+      </tr>
+      <tr>
+          <td>ip name-server serverip-1 serverip-2</td>
+          <td>Sets the IP address of or more DNS servers that the device can use to resolve hostnames to IP addresses.</td>
+      </tr>
+  </tbody>
+</table>
 
-<h3 id="nmcli">
-  nmcli
+<h3 id="troubleshooting-cisco-commands-list">
+  Troubleshooting Cisco Commands List
   
-  <a hidden class="anchor" href="#nmcli">
+  <a hidden class="anchor" href="#troubleshooting-cisco-commands-list">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
@@ -519,14 +677,73 @@ sudo apt upgrade
  </a>
   
 </h3>
-<pre tabindex="0"><code>sudo nmcli connection modify &#39;tlevel-digital&#39; ipv4.dns &#34;172.16.0.4 8.8.8.8&#34;
-sudo nmcli connection modify &#39;tlevel-digital&#39; ipv4.ignore-auto-dns yes
-</code></pre><p>The use of the Network Manager CLI to automate the process of the DNS Server to ensure, The initial idea of this would have been to have it hand it out via DHCP, But the AP that we had doesn&rsquo;t support the altering of the DHCP Pool without an addon that was more than what we required so we opted to manually get it up instead.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Command</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>ping {hostname</td>
+          <td>system-address} [source source-address]</td>
+      </tr>
+      <tr>
+          <td>speed {10</td>
+          <td>100</td>
+      </tr>
+      <tr>
+          <td>duplex {auto</td>
+          <td>full</td>
+      </tr>
+      <tr>
+          <td>cdp run / no cdp run</td>
+          <td>Enables or disables Cisco Discovery Protocol (CDP) for the device</td>
+      </tr>
+      <tr>
+          <td>show mac address-table</td>
+          <td>Displays the MAC address table</td>
+      </tr>
+      <tr>
+          <td>show cdp</td>
+          <td>Shows whether CDP is enabled globally</td>
+      </tr>
+      <tr>
+          <td>show cdp neighbors[detail]</td>
+          <td>Lists summary (or detailed) information about each neighbor connected to the device</td>
+      </tr>
+      <tr>
+          <td>show interfaces</td>
+          <td>Displays detailed information about interface status, settings and counters</td>
+      </tr>
+      <tr>
+          <td>show interface status</td>
+          <td>Displays the interface line status</td>
+      </tr>
+      <tr>
+          <td>show interfaces switchport</td>
+          <td>Displays many configuration settings and current operational status, including VLAN trunking details</td>
+      </tr>
+      <tr>
+          <td>show interfaces trunk</td>
+          <td>Lists information about the currently operational trunks and the VLANs supported by those trunks</td>
+      </tr>
+      <tr>
+          <td>show vlan / show vlan brief</td>
+          <td>Lists each VLAN and all interfaces assigned to that VLAN but does not include trunks</td>
+      </tr>
+      <tr>
+          <td>show vtp status</td>
+          <td>Lists the current VLAN Trunk Protocol (VTP) status, including the current mode</td>
+      </tr>
+  </tbody>
+</table>
 
-<h3 id="grep">
-  grep
+<h3 id="routing-and-vlan-commands">
+  Routing and VLAN Commands
   
-  <a hidden class="anchor" href="#grep">
+  <a hidden class="anchor" href="#routing-and-vlan-commands">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
@@ -534,13 +751,105 @@ sudo nmcli connection modify &#39;tlevel-digital&#39; ipv4.ignore-auto-dns yes
  </a>
   
 </h3>
-<pre tabindex="0"><code>nmcli connection show tlevel-digital | grep ipv4.dns:
-</code></pre><p>The connections show listed all the information about the selected network, the addition of grep was to filter the output as there was lots of additional information that isn&rsquo;t required for the setup of these machines, as they aren&rsquo;t required to have a statically assigned to each machine.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Command</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>show ip route</td>
+          <td>Displays the current state of the IP routing of all known routes that are either statically configured or learned dynamically through a routing protocol</td>
+      </tr>
+      <tr>
+          <td>ip route network-number network-mask {ip-address</td>
+          <td>interface}</td>
+      </tr>
+      <tr>
+          <td>router rip</td>
+          <td>Enables a Routing Information Protocol (RIP) routing process, which places you in router configuration mode</td>
+      </tr>
+      <tr>
+          <td>network ip-address</td>
+          <td>Associates a network with a RIP routing process</td>
+      </tr>
+      <tr>
+          <td>version 2</td>
+          <td>Configures the software to receive and send only RIP version 2 packets</td>
+      </tr>
+      <tr>
+          <td>no auto-summary</td>
+          <td>Disables automatic summarization</td>
+      </tr>
+      <tr>
+          <td>default-information originate</td>
+          <td>Generates a default route into RIP</td>
+      </tr>
+      <tr>
+          <td>passive-interface interface</td>
+          <td>Sets the specified interface to passive RIP mode, which means RIP routing updates are accepted by, but not sent out of, the interface</td>
+      </tr>
+      <tr>
+          <td>show ip rip database</td>
+          <td>Displays the contents of the RIP routing database</td>
+      </tr>
+      <tr>
+          <td>ip nat [inside</td>
+          <td>outside]</td>
+      </tr>
+      <tr>
+          <td>ip nat inside source {list{access-list-number</td>
+          <td>access-list-name}} interface type number[overload]</td>
+      </tr>
+      <tr>
+          <td>ip nat inside source static local-ip global-ip</td>
+          <td>Establishes a static translation between an inside local address and an inside global address</td>
+      </tr>
+      <tr>
+          <td>vlan</td>
+          <td>Creates a VLAN and enters VLAN configuration mode for further definitions</td>
+      </tr>
+      <tr>
+          <td>switchport access vlan</td>
+          <td>Sets the VLAN that the interface belongs to</td>
+      </tr>
+      <tr>
+          <td>switchport trunk encapsulation dot1q</td>
+          <td>Specifies 802.1Q encapsulation on the trunk link</td>
+      </tr>
+      <tr>
+          <td>switchport access</td>
+          <td>Configures a specific Ethernet port on a switch to operate in access mode to accommodate an end device such as a computer, server or printer. The port must then be assigned to a single VLAN.</td>
+      </tr>
+      <tr>
+          <td>vlan vlan-id [name vlan-name]</td>
+          <td>Configures a specific VLAN name (1 to 32 characters)</td>
+      </tr>
+      <tr>
+          <td>switchport mode { access</td>
+          <td>trunk }</td>
+      </tr>
+      <tr>
+          <td>switchport trunk {encapsulation { dot1q }}</td>
+          <td>Sets the trunk characteristics when the interface is in trunking mode. In this mode, the switch supports simultaneous tagged and untagged traffic on a port.</td>
+      </tr>
+      <tr>
+          <td>encapsulation dot1q vlan-id</td>
+          <td>Defines the matching criteria to map 802.1Q frames ingress on an interface to the appropriate service instance</td>
+      </tr>
+      <tr>
+          <td>show spanning-tree</td>
+          <td>Provides detailed information about the Spanning Tree protocol for all VLANs</td>
+      </tr>
+  </tbody>
+</table>
 
-<h3 id="dpkg">
-  dpkg
+<h3 id="dhcp-commands">
+  DHCP Commands
   
-  <a hidden class="anchor" href="#dpkg">
+  <a hidden class="anchor" href="#dhcp-commands">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
@@ -548,25 +857,49 @@ sudo nmcli connection modify &#39;tlevel-digital&#39; ipv4.ignore-auto-dns yes
  </a>
   
 </h3>
-<pre tabindex="0"><code>sudo dpkg -i projectlibre_1.9.3-1.deb
-</code></pre><p>dpkg is a Debian based command line tool to install .deb files on the system this is used for a few of the packages that have been installed.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Command</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>ip address dhcp</td>
+          <td>Acquires an IP address on an interface via DHCP</td>
+      </tr>
+      <tr>
+          <td>ip dhcp pool name</td>
+          <td>Used to configure a DHCP address pool on a DHCP server and enter DHCP pool configuration mode</td>
+      </tr>
+      <tr>
+          <td>domain-name domain</td>
+          <td>Specifies the domain name for a DHCP client</td>
+      </tr>
+      <tr>
+          <td>network network-number [mask]</td>
+          <td>Configures the network number and mask for a DHCP address pool primary or secondary subnet on a Cisco IOS DHCP server</td>
+      </tr>
+      <tr>
+          <td>ip dhcp excluded-address ip-address [last-ip-address]</td>
+          <td>Specifies IP addresses that a DHCP server should not assign to DHCP clients</td>
+      </tr>
+      <tr>
+          <td>ip helper-address address</td>
+          <td>Enables forwarding of UDP broadcasts, including BOOTP, received on an interface</td>
+      </tr>
+      <tr>
+          <td>default-router address[address2 &hellip; address8]</td>
+          <td>Specifies the default routers for a DHCP client</td>
+      </tr>
+  </tbody>
+</table>
 
-<h2 id="file-types">
-  File Types:
+<h3 id="security-commands">
+  Security Commands
   
-  <a hidden class="anchor" href="#file-types">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
-
-<h3 id="desktop">
-  .desktop
-  
-  <a hidden class="anchor" href="#desktop">
+  <a hidden class="anchor" href="#security-commands">
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
@@ -574,45 +907,53 @@ sudo nmcli connection modify &#39;tlevel-digital&#39; ipv4.ignore-auto-dns yes
  </a>
   
 </h3>
-<pre tabindex="0"><code>[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=false
-Exec=/opt/PhpStorm/bin/phpstorm.sh
-Name=PhpStorm
-Comment=Jetbrains PHP IDE
-Icon=/opt/PhpStorm/bin/phpstorm.png
-</code></pre><p>A .desktop file is the way that you are supposed to add new applications to the gnome start menu as the Machines are using Ubuntu, it is important for users that are too familiar with linux to be able to use the start menu to open and locate common software. The example that was shown above is for PhpStorm, another features that I am in the middle of implementing is phpmyAdmin so that the users are able to select the phpmyAdmin site without needing to know the IP address of the server that is running phpmyAdmin as we aren&rsquo;t running that locally on the Pi&rsquo;s as they aren&rsquo;t that powerful. The post will be updated in the future to add more and more features that I have added.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Command</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Password pass-value</td>
+          <td>Lists the password that is required if the login command (with no other parameters) is configured</td>
+      </tr>
+      <tr>
+          <td>username name password pass-value</td>
+          <td>Defines one of possibly multiple user names and associated passwords used for user authentication. It is used when the login local line configuration command has been used.</td>
+      </tr>
+      <tr>
+          <td>enable password pass-value</td>
+          <td>Defines the password required when using the enable command</td>
+      </tr>
+      <tr>
+          <td>enable secret pass-value</td>
+          <td>Sets the password required for any user to enter enable mode</td>
+      </tr>
+      <tr>
+          <td>service password-encryption</td>
+          <td>Directs the Cisco IOS software to encrypt the passwords, CHAP secrets and similar data saved in its configuration file</td>
+      </tr>
+      <tr>
+          <td>ip domain-name name</td>
+          <td>Configures a DNS domain name</td>
+      </tr>
+      <tr>
+          <td>crypto key generate rsa</td>
+          <td>Creates and stores (in a hidden location in flash memory) the keys that are required by SSH</td>
+      </tr>
+      <tr>
+          <td>transport input {telnet</td>
+          <td>ssh}</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
 
-<h2 id="final-script">
-  Final Script:
-  
-  <a hidden class="anchor" href="#final-script">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
-<p><a href="https://github.com/SilentSmeary/rpi-bash" target="_blank">https://github.com/SilentSmeary/rpi-bash</a>
-</p>
-
-<h2 id="usage">
-  Usage:
-  
-  <a hidden class="anchor" href="#usage">
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-
- </a>
-  
-</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git clone https://github.com/silentsmeary/rpi-bash
-</span></span><span style="display:flex;"><span>cd rpi-bash
-</span></span><span style="display:flex;"><span>./setup.sh
-</span></span></code></pre></div>
 
 
 
@@ -625,17 +966,17 @@ Icon=/opt/PhpStorm/bin/phpstorm.png
 
 <nav class="pagenav">
   
-    <a class="prev" href="/posts/silent-debian/">
+    <a class="prev" href="/posts/raspberry-pi-5/">
       <span class="direction">« Prev</span>
       <br>
-      <span> Silent Debian </span>
+      <span> Raspberry Pi 5 Bash Script </span>
     </a>
   
   
-    <a class="next" href="/posts/cisco-1942/">
+    <a class="next" href="/posts/smartsearch/">
       <span class="direction">Next »</span>
       <br>
-      <span> Cisco Router Configuration </span>
+      <span> Smartsearch Game </span>
     </a>
   
 </nav>
