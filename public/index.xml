@@ -4,7 +4,7 @@
     <title>James&#39; Portfolio</title>
     <link>//localhost:1313/</link>
     <description>Recent content on James&#39; Portfolio</description>
-    <generator>Hugo -- 0.139.0</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -14,6 +14,13 @@
       <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/posts/brandon-medical/</guid>
       <description>Post about Brandon Medical Work Placement</description>
+    </item>
+    <item>
+      <title>VMware Workstation Pro</title>
+      <link>//localhost:1313/guides/vmware-pro/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/guides/vmware-pro/</guid>
+      <description>When Broadcom bought out VMware they decided to make VMware Workstation Pro Free for Personal Use this is a guide on how to claim and use if you haven&rsquo;t before</description>
     </item>
     <item>
       <title>Silent Debian</title>

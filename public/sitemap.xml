@@ -5,6 +5,10 @@
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>//localhost:1313/guides/vmware-pro/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>//localhost:1313/posts/silent-debian/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url>
@@ -21,6 +25,14 @@
     <lastmod>2024-05-05T00:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>//localhost:1313/tags/guide/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/guides/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>//localhost:1313/posts/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url>
@@ -30,6 +42,10 @@
   </url>
   <url>
     <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/virtualisation/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url>
   <url>
