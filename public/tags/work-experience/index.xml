@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work Experience on James&#39; Portfolio</title>
+    <link>http://localhost:1313/tags/work-experience/</link>
+    <description>Recent content in Work Experience on James&#39; Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 27 Apr 2025 16:45:40 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/work-experience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brandon Medical Work Experience</title>
+      <link>http://localhost:1313/posts/brandon_medical/</link>
+      <pubDate>Wed, 30 Oct 2024 21:57:40 +0800</pubDate>
+      <guid>http://localhost:1313/posts/brandon_medical/</guid>
+      <description>&lt;p&gt;Talking about my time at Brandon Medical on Work Experience&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SmartSearch Game</title>
+      <link>http://localhost:1313/posts/smartsearch_game/</link>
+      <pubDate>Sun, 05 May 2024 21:57:40 +0800</pubDate>
+      <guid>http://localhost:1313/posts/smartsearch_game/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#introduction&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Introduction:&lt;/h2&gt;&lt;p&gt;Smartsearch approached the UTC with an idea that they wanted to make a game to showcase there company at events. We initial met with them in person and spoke with Dan that was our a lead contact at Smartsearch and the team. We also met with David who is one of the software developers at SmartSearch he assisted along the way with more of the team management to ensure that we were on the right tracks and that we made a viable product at the end that could be used to bring people to the SmartSearch stand and get them interetsed.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

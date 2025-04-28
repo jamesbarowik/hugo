@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation on James&#39; Portfolio</title>
+    <link>http://localhost:1313/tags/automation/</link>
+    <description>Recent content in Automation on James&#39; Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 27 Apr 2025 16:45:40 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Silent Debian</title>
+      <link>http://localhost:1313/posts/silent_debian/</link>
+      <pubDate>Mon, 02 Sep 2024 21:57:40 +0800</pubDate>
+      <guid>http://localhost:1313/posts/silent_debian/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#introduction&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Introduction:&lt;/h2&gt;&lt;p&gt;I had wanted to learn linux for the longest time but never really got the opportunity as in a learning situation Windows was the operating system that was used, then same for the work placement. Which ment I got really comfortable using the Windows operating system.&lt;/p&gt;&#xA;&lt;p&gt;Linux was something that interetsted me from the first time that I had looked into it as it was different from everthing else that I&amp;rsquo;d use before. I have previously used Windows 7, 8, 8.1, 10 and am currently writing this from a Windows 11 machine. I would be daily driving linux on my Main Machine but there was some issues related to the graphics card that made it nearly impossible for that to happen&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Raspberry Pi 5 Bash Project</title>
+      <link>http://localhost:1313/posts/raspberry_pi_5_project/</link>
+      <pubDate>Sun, 28 Jul 2024 21:57:40 +0800</pubDate>
+      <guid>http://localhost:1313/posts/raspberry_pi_5_project/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34; class=&#34;headerLink&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;#introduction&#34; class=&#34;header-mark&#34;&gt;&lt;/a&gt;Introduction:&lt;/h2&gt;&lt;p&gt;To further my career and learning, and the installation of the Raspberry Pi Cluster. I looked into creating a bash script, that would automate the process as much as possible to reduce the amount of time that it took to setup and install all of the machines. Something that I would like to look into in the future is the addition of a deployment server that install the OS automatically across the network of machines. I currently have no idea how I’d go about doing that so using a bash based automated process.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

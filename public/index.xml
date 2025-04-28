@@ -1,0 +1,45 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>James&#39; Portfolio</title>
+        <link>http://localhost:1313/</link>
+        <description>James&#39; Portfolio</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 30 Oct 2024 21:57:40 &#43;0800</lastBuildDate>
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Brandon Medical Work Experience</title>
+    <link>http://localhost:1313/posts/brandon_medical/</link>
+    <pubDate>Wed, 30 Oct 2024 21:57:40 &#43;0800</pubDate><author>
+                    <name>James</name>
+                </author><guid>http://localhost:1313/posts/brandon_medical/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.barowikajames.com/images/brandon_medical.png" referrerpolicy="no-referrer">
+            </div><p>Talking about my time at Brandon Medical on Work Experience</p>]]></description>
+</item><item>
+    <title>Silent Debian</title>
+    <link>http://localhost:1313/posts/silent_debian/</link>
+    <pubDate>Mon, 02 Sep 2024 21:57:40 &#43;0800</pubDate><author>
+                    <name>James</name>
+                </author><guid>http://localhost:1313/posts/silent_debian/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.barowikajames.com/images/silent_debian.png" referrerpolicy="no-referrer">
+            </div><p>Automated script I used to install my software stack</p>]]></description>
+</item><item>
+    <title>Raspberry Pi 5 Bash Project</title>
+    <link>http://localhost:1313/posts/raspberry_pi_5_project/</link>
+    <pubDate>Sun, 28 Jul 2024 21:57:40 &#43;0800</pubDate><author>
+                    <name>James</name>
+                </author><guid>http://localhost:1313/posts/raspberry_pi_5_project/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.barowikajames.com/images/raspberry_pi_5_project.png" referrerpolicy="no-referrer">
+            </div><p>Automated install script i made for the Raspbery Pi-5 to install the T-Level Digital Software Stack</p>]]></description>
+</item><item>
+    <title>SmartSearch Game</title>
+    <link>http://localhost:1313/posts/smartsearch_game/</link>
+    <pubDate>Sun, 05 May 2024 21:57:40 &#43;0800</pubDate><author>
+                    <name>James</name>
+                </author><guid>http://localhost:1313/posts/smartsearch_game/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.barowikajames.com/images/smartsearch_game.png" referrerpolicy="no-referrer">
+            </div><p>Group project where we made Smartsearch company a game that they use for marketing</p>]]></description>
+</item></channel>
+</rss>
