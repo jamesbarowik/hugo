@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>T-Level Digital on James&#39; Portfolio</title>
-    <link>http://example.org/tags/t-level-digital/</link>
+    <link>http://localhost:1313/tags/t-level-digital/</link>
     <description>Recent content in T-Level Digital on James&#39; Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 27 Apr 2025 16:45:40 +0800</lastBuildDate>
-    <atom:link href="http://example.org/tags/t-level-digital/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/t-level-digital/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Brandon Medical Work Experience</title>
-      <link>http://example.org/posts/brandon_medical/</link>
+      <link>http://localhost:1313/posts/brandon_medical/</link>
       <pubDate>Wed, 30 Oct 2024 21:57:40 +0800</pubDate>
-      <guid>http://example.org/posts/brandon_medical/</guid>
+      <guid>http://localhost:1313/posts/brandon_medical/</guid>
+      <description>&lt;p&gt;Talking about my time at Brandon Medical on Work Experience&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Brandon Medical Work Experience</title>
+      <link>http://localhost:1313/posts/quick_attach_pi-5_mount/</link>
+      <pubDate>Wed, 30 Oct 2024 21:57:40 +0800</pubDate>
+      <guid>http://localhost:1313/posts/quick_attach_pi-5_mount/</guid>
       <description>&lt;p&gt;Talking about my time at Brandon Medical on Work Experience&lt;/p&gt;</description>
     </item>
   </channel>

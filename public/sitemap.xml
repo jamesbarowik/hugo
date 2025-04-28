@@ -2,18 +2,19 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/posts/brandon_medical/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/posts/silent_debian/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/posts/raspberry_pi_5_project/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/posts/smartsearch_game/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/tags/t-level-digital/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/tags/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/tags/work-experience/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/tags/automation/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/tags/bash-scripting/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/tags/linux/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/tags/ubuntu/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/tags/project/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/categories/</loc></url></urlset>
+            <loc>http://localhost:1313/posts/brandon_medical/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/quick_attach_pi-5_mount/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/silent_debian/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/raspberry_pi_5_project/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/smartsearch_game/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/t-level-digital/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/work-experience/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/automation/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/bash-scripting/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/linux/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/ubuntu/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/project/</loc><lastmod>2025-04-27T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/categories/</loc></url></urlset>

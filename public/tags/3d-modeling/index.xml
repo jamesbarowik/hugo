@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3D Modeling on James&#39; Portfolio</title>
+    <link>http://localhost:1313/tags/3d-modeling/</link>
+    <description>Recent content in 3D Modeling on James&#39; Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Apr 2025 16:45:40 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/3d-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quick Attach Pi-5 Mount</title>
+      <link>http://localhost:1313/posts/quick_attach_pi-5_mount/</link>
+      <pubDate>Mon, 28 Apr 2025 21:57:40 +0800</pubDate>
+      <guid>http://localhost:1313/posts/quick_attach_pi-5_mount/</guid>
+      <description>&lt;p&gt;Creation of the New Quick Attach Vesa Mount for the Raspberry Pi-5&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
